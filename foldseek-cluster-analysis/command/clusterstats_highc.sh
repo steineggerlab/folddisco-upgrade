@@ -1,6 +1,6 @@
 #Script to generate cluster statistics for Foldseek clustering trials
 
-OUTPUT="result/foldseek_cluster_stats.tsv"
+OUTPUT="result/foldseek_cluster_stats_highcov.tsv"
 
 \echo -e "Coverage\te=0.001\te=0.05\te=0.1\te=0.5" > "$OUTPUT"
 

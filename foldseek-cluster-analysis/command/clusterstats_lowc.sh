@@ -11,7 +11,8 @@ e005_trials=(25 26 27 28)
 e01_trials=(29 30 31 32)
 e05_trials=(33 34 35 36)
 
-for i in {0..4}; do
+for i in {0..3}; do
+
     cov=${coverages[$i]}
     file1="result/foldseek-trial${e0001_trials[$i]}/trial${e0001_trials[$i]}_cluster.tsv"
     file2="result/foldseek-trial${e005_trials[$i]}/trial${e005_trials[$i]}_cluster.tsv"
