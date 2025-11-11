@@ -1,0 +1,5 @@
+>3_30_428_query
+PDBs: 3l7xA00, 3wo5A00, 1vkvA01, 2h39B02, 6gqdA01, 3i4sA00, 1st0B03, 3n1sJ00, 3spdA00, 6gbsA02
+LHH
+[154, 205, 209]
+[0.7, 0.8, 0.7]

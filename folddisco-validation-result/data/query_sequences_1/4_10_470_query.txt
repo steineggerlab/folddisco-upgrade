@@ -1,0 +1,5 @@
+>4_10_470_query
+PDBs: 1oqlA02, 3hisA02, 4m1uA02, 1ggpA02, 4fb9A02, 1rl0A02, 2b7uA02, 2pqgB02
+IWS
+[4, 35, 39]
+[0.75, 1.0, 1.0]
