@@ -1,5 +1,0 @@
->2_10_60_query
-PDBs: 5nh3A00, 7l0jB01, 2ofsA00, 2pjyC00, 4faoC00, 3plcB00, 7z14F01, 1ks6A00, 2i9bG02, 3laqU01, 2h5fB00, 4aeaA00, 5do6A00
-CC
-[52, 73]
-[1.0, 0.7692307692307693]
