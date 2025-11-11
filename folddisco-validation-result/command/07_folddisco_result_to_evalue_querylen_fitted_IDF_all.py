@@ -10,8 +10,8 @@ from scipy.stats import gumbel_r
 from scipy.stats import gaussian_kde
 from multiprocessing import Pool
 
-RESULT_DIR = "result/folddisco_result_2_revisited"
-PNG_DIR = "result/folddisco_plot"
+RESULT_DIR = "result/folddisco_results_analyses"
+PNG_DIR = "result/analysis_plot"
 FILE_INFO = 'total_combined.txt'
 INDEX_DIR = "data/index_pdbs"
 N_INDEX = sum(1 for f in os.listdir(INDEX_DIR) if f.endswith(".pdb"))

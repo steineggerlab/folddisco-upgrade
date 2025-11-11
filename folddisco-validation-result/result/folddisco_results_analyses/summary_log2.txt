@@ -1,0 +1,44 @@
+[OK] Saved 9437789 significant hits (e<0.05) -> result/folddisco_result_2_revisited/evalues_stat2.txt
+=== Summary by query length (e<0.05) ===
+2_combined.txt: 0 significant / 0 self-hits / 113197 total queries
+3_combined.txt: 2 significant / 2 self-hits / 309864 total queries
+4_combined.txt: 39 significant / 39 self-hits / 276492 total queries
+5_combined.txt: 69 significant / 69 self-hits / 351234 total queries
+6_combined.txt: 70 significant / 70 self-hits / 401914 total queries
+7_combined.txt: 65 significant / 65 self-hits / 488534 total queries
+8_combined.txt: 93 significant / 93 self-hits / 772571 total queries
+9_combined.txt: 502 significant / 502 self-hits / 25054293 total queries
+========================================
+[OK] Saved 11438098 significant hits (e<1) -> result/folddisco_result_2_revisited/evalues_stat2.txt
+=== Summary by query length (e<1) ===
+2_combined.txt: 2 significant / 1 self-hits / 113197 total queries
+3_combined.txt: 20 significant / 20 self-hits / 309864 total queries
+4_combined.txt: 65 significant / 65 self-hits / 276492 total queries
+5_combined.txt: 86 significant / 86 self-hits / 351234 total queries
+6_combined.txt: 76 significant / 76 self-hits / 401914 total queries
+7_combined.txt: 67 significant / 67 self-hits / 488534 total queries
+8_combined.txt: 94 significant / 94 self-hits / 772571 total queries
+9_combined.txt: 502 significant / 502 self-hits / 25054293 total queries
+========================================
+[OK] Saved 12703005 significant hits (e<5) -> result/folddisco_result_2_revisited/evalues_stat2.txt
+=== Summary by query length (e<5) ===
+2_combined.txt: 2 significant / 2 self-hits / 113197 total queries
+3_combined.txt: 40 significant / 39 self-hits / 309864 total queries
+4_combined.txt: 84 significant / 84 self-hits / 276492 total queries
+5_combined.txt: 98 significant / 98 self-hits / 351234 total queries
+6_combined.txt: 78 significant / 78 self-hits / 401914 total queries
+7_combined.txt: 69 significant / 68 self-hits / 488534 total queries
+8_combined.txt: 94 significant / 94 self-hits / 772571 total queries
+9_combined.txt: 502 significant / 502 self-hits / 25054293 total queries
+========================================
+[OK] Saved 13291494 significant hits (e<10) -> result/folddisco_result_2_revisited/evalues_stat2.txt
+=== Summary by query length (e<10) ===
+2_combined.txt: 9 significant / 7 self-hits / 113197 total queries
+3_combined.txt: 52 significant / 51 self-hits / 309864 total queries
+4_combined.txt: 93 significant / 92 self-hits / 276492 total queries
+5_combined.txt: 99 significant / 99 self-hits / 351234 total queries
+6_combined.txt: 79 significant / 79 self-hits / 401914 total queries
+7_combined.txt: 69 significant / 69 self-hits / 488534 total queries
+8_combined.txt: 94 significant / 94 self-hits / 772571 total queries
+9_combined.txt: 502 significant / 502 self-hits / 25054293 total queries
+========================================

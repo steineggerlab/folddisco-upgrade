@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import os
 import math
 
-RESULT_DIR = "result/folddisco_result_2"
-PNG_DIR = "result/folddisco_plot"
-NOKEY_FILE = "result/folddisco_result_2_stat/folddisco_nokey.txt"
-RESULT_FILE = "result/folddisco_result_2_stat/folddisco_result_summary.txt"
+RESULT_DIR = "result/folddisco_results_raw"
+PNG_DIR = "result/analysis_plot"
+NOKEY_FILE = "result/folddisco_results_stat/folddisco_nokey.txt"
+RESULT_FILE = "result/folddisco_results_stat/folddisco_result_summary.txt"
 
 def _lawless416(x, lam):
     ex = np.exp(-lam * x)

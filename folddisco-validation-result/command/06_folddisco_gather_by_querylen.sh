@@ -5,9 +5,9 @@
 #SBATCH --time=01:00:00 # Time limit hrs:min:sec
 #SBATCH --output=gather_by_querylen_%j.log # Standard output and error log
 
-DATA_DIR='result/folddisco_result_2'
-TARGET_DIR='result/folddisco_result_2_revisited'
-QUERY_INFO='result/folddisco_result_2_revisited/folddisco_result_sorted.txt'
+DATA_DIR='result/folddisco_results_raw'
+TARGET_DIR='result/folddisco_results_analyses'
+QUERY_INFO='result/folddisco_results_analyses/folddisco_result_sorted.txt'
 FINAL_FILE="$TARGET_DIR"/"total_combined.txt"
 
 first_file=$(find "$TARGET_DIR" -type f -name '*_combined.txt' | head -n 1)

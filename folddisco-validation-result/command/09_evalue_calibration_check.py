@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from math import exp
 import os
 
-FILE_INFO = "result/folddisco_result_2_revisited/evalues_stat2.txt"
-PNG_DIR = "result/folddisco_plot"
+FILE_INFO = "result/folddisco_results_analyses/evalues_stat2.txt"
+PNG_DIR = "result/analysis_plot"
 
 df = pd.read_csv(FILE_INFO, sep="\t")
 x = df["e_value"].replace("NA", np.nan).dropna().astype(float)

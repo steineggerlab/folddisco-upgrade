@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from scipy.stats import kstest
 
-DATA = "result/folddisco_result_2_revisited/total_evalues_fitted.txt"
-OUTD = "result/folddisco_result_2_revisited/qc_idf_evalue"
+DATA = "result/folddisco_results_analyses/total_evalues_fitted.txt"
+OUTD = "result/folddisco_results_analyses/qc_idf_evalue"
 os.makedirs(OUTD, exist_ok=True)
 
 # ----- 설정 -----

@@ -3,7 +3,7 @@
 import os
 from collections import defaultdict
 
-DATA_DIR = "result/folddisco_result_2_revisited"
+DATA_DIR = "result/folddisco_results_analyses"
 DATA_FILE = os.path.join(DATA_DIR, "total_evalues_fitted2.txt") 
 RESULT_FILE = os.path.join(DATA_DIR, "evalues_stat2.txt") 
 LOG_FILE = os.path.join(DATA_DIR, "summary_log2.txt")

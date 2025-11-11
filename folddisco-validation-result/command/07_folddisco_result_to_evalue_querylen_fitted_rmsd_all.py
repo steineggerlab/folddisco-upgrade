@@ -9,8 +9,8 @@ from collections import defaultdict
 from scipy.stats import gumbel_r
 from scipy.stats import gaussian_kde
 
-RESULT_DIR = "result/folddisco_result_2_revisited"
-PNG_DIR = "result/folddisco_plot"
+RESULT_DIR = "result/folddisco_results_analyses"
+PNG_DIR = "result/analysis_plot"
 FILE_INFO = 'total_combined.txt'
 
 def smart_split(line):

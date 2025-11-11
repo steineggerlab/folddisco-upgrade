@@ -10,7 +10,7 @@ DATA_DIR='data/classified_pdbs'
 DOMAIN_INFO='domain_list.txt'
 QUERY_INFO='data/chain_residue_list.txt'
 INDEX_DIR='index/index_pdbs_folddisco' 
-RESULT_DIR='result/folddisco_result_2' 
+RESULT_DIR='result/folddisco_results_raw' 
 HEADER=$'id\tnode_count\tidf_score\trmsd\tmatching_residues\tkey\tquery_residues'
 
 for file in "$DATA_DIR"/*/"$DOMAIN_INFO"; do

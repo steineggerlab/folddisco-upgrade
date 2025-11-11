@@ -1,11 +1,11 @@
-RESULT_YES_FILE = "result/folddisco_result_2_stat/folddisco_result_summary.txt"
-RESULT_NO_FILE = "result/folddisco_result_2_stat/folddisco_nokey.txt"
+RESULT_YES_FILE = "result/folddisco_results_stat/folddisco_result_summary.txt"
+RESULT_NO_FILE = "result/folddisco_results_stat/folddisco_nokey.txt"
 DATA_DIR = 'data/classified_pdbs'
-CLASSIFIED_FILE = 'result/folddisco_result_2_stat/folddisco_result_yesorno.txt'
+CLASSIFIED_FILE = 'result/folddisco_results_stat/folddisco_result_yesorno.txt'
 QUERY_INFO = 'domain_list.txt'
-DIRECTORY_FILE = 'result/folddisco_result_2_stat/directory_result.tsv'
+DIRECTORY_FILE = 'result/folddisco_results_stat/directory_result.tsv'
 QUERY_DIRECTORY='data/query_sequences_1'
-DIFFERENCE_RESULT = 'result/folddisco_result_2_stat/difference.tsv'
+DIFFERENCE_RESULT = 'result/folddisco_results_stat/difference.tsv'
 
 import os, collections, ast
 
