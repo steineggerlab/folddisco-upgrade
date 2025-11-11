@@ -1,0 +1,5 @@
+>1_10_167_query
+PDBs: 2acxA01, 2dlrA00, 1fqjB02, 3ab3D00, 3pvuA02
+FL
+[90, 91]
+[0.8, 0.8]
