@@ -1,0 +1,5 @@
+>1_10_418_query
+PDBs: 1ujoA00, 5l0oA00, 6b9hA00, 1pxyA04, 2wa7A01, 1mb8A02, 1pxyB01, 1vkaB00
+LGN
+[54, 57, 100]
+[0.75, 1.0, 0.875]
