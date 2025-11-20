@@ -1,0 +1,9 @@
+>3_30_20_query
+PDBs: 2cjlA02, 2z39A02
+PCDCGYYGRGPLSWNNYGLGLLNPD
+[8, 11, 12, 20, 23, 27, 28, 29, 30, 31, 32, 35, 36, 37, 38, 40, 41, 45, 48, 49, 52, 53, 55, 56, 57]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2cjlA02	P (OK)	C (OK)	D (OK)	C (OK)	G (OK)	Y (OK)	Y (OK)	G (OK)	R (OK)	G (OK)	P (OK)	L (OK)	S (OK)	W (OK)	N (OK)	N (OK)	Y (OK)	G (OK)	L (OK)	G (OK)	L (OK)	L (OK)	N (OK)	P (OK)	D (OK)
+2z39A02	P (OK)	C (OK)	D (OK)	C (OK)	G (OK)	Y (OK)	Y (OK)	G (OK)	R (OK)	G (OK)	P (OK)	L (OK)	S (OK)	W (OK)	N (OK)	N (OK)	Y (OK)	G (OK)	L (OK)	G (OK)	L (OK)	L (OK)	N (OK)	P (OK)	D (OK)

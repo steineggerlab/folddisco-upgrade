@@ -1,0 +1,11 @@
+>3_40_420_query
+PDBs: 2b7uA01, 2k6hA01, 1gikA01, 4p2cA01
+TDTYFSRPVPNPLRTLIRNLGYLLMEA
+[8, 12, 17, 21, 24, 27, 29, 45, 46, 48, 51, 56, 64, 73, 78, 79, 81, 83, 85, 86, 90, 137, 159, 183, 189, 192, 193]
+[0.75, 0.75, 0.75, 1.0, 0.75, 0.75, 1.0, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 1.0, 1.0, 1.0, 0.75, 0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+2b7uA01	T (OK)	D (OK)	T (OK)	Y (OK)	F (OK)	N (X)	R (OK)	P (OK)	V (OK)	P (OK)	N (OK)	P (OK)	L (OK)	R (OK)	T (OK)	V (X)	I (OK)	R (OK)	D (X)	L (OK)	G (OK)	Y (OK)	L (OK)	L (OK)	M (OK)	E (OK)	A (OK)
+2k6hA01	T (OK)	P (X)	N (X)	Y (OK)	F (OK)	S (OK)	R (OK)	P (OK)	V (OK)	P (OK)	E (X)	P (OK)	L (OK)	R (OK)	T (OK)	L (OK)	I (OK)	M (X)	N (OK)	L (OK)	G (OK)	Y (OK)	M (X)	L (OK)	M (OK)	E (OK)	G (X)
+1gikA01	T (OK)	D (OK)	T (OK)	Y (OK)	F (OK)	S (OK)	R (OK)	P (OK)	M (X)	P (OK)	N (OK)	T (X)	L (OK)	S (X)	T (OK)	L (OK)	L (X)	R (OK)	N (OK)	L (OK)	G (OK)	Y (OK)	L (OK)	L (OK)	M (OK)	E (OK)	A (OK)
+4p2cA01	E (X)	D (OK)	T (OK)	Y (OK)	S (X)	S (OK)	R (OK)	S (X)	V (OK)	S (X)	N (OK)	P (OK)	I (X)	R (OK)	R (X)	L (OK)	I (OK)	R (OK)	N (OK)	L (OK)	G (OK)	Y (OK)	L (OK)	V (X)	V (X)	Q (X)	A (OK)

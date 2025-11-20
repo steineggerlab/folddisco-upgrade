@@ -1,0 +1,9 @@
+>1_20_840_query
+PDBs: 1e6vB02, 1hbmA03
+VALDNDVEDAAAAAAQLGFGNALFFAE
+[69, 73, 75, 107, 108, 112, 144, 150, 175, 183, 184, 189, 190, 197, 201, 202, 214, 223, 239, 248, 257, 273, 293, 298, 307, 318, 321]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1e6vB02	V (OK)	A (OK)	L (OK)	D (OK)	N (OK)	D (OK)	V (OK)	E (OK)	D (OK)	A (OK)	A (OK)	A (OK)	A (OK)	A (OK)	A (OK)	Q (OK)	L (OK)	G (OK)	F (OK)	G (OK)	N (OK)	A (OK)	L (OK)	F (OK)	F (OK)	A (OK)	E (OK)
+1hbmA03	V (OK)	A (OK)	L (OK)	D (OK)	N (OK)	D (OK)	V (OK)	E (OK)	D (OK)	A (OK)	A (OK)	A (OK)	A (OK)	A (OK)	A (OK)	Q (OK)	L (OK)	G (OK)	F (OK)	G (OK)	N (OK)	A (OK)	L (OK)	F (OK)	F (OK)	A (OK)	E (OK)

@@ -1,0 +1,12 @@
+>1_20_970_query
+PDBs: 1uouA01, 4ga4A01, 2elcA01, 5ey3B01, 1zvwA01
+GLIAELAM
+[13, 16, 38, 44, 54, 58, 61, 62]
+[0.8, 1.0, 0.8, 0.8, 1.0, 0.8, 0.8, 0.8]
+
+# Match Table
+1uouA01	G (OK)	L (OK)	I (OK)	A (OK)	E (OK)	L (OK)	A (OK)	L (X)
+4ga4A01	G (OK)	L (OK)	I (OK)	A (OK)	E (OK)	L (OK)	A (OK)	M (OK)
+2elcA01	G (OK)	L (OK)	A (X)	A (OK)	E (OK)	M (X)	A (OK)	M (OK)
+5ey3B01	G (OK)	L (OK)	I (OK)	T (X)	E (OK)	L (OK)	A (OK)	M (OK)
+1zvwA01	N (X)	L (OK)	I (OK)	A (OK)	E (OK)	L (OK)	V (X)	M (OK)

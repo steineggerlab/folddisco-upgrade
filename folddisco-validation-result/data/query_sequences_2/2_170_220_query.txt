@@ -1,0 +1,9 @@
+>2_170_220_query
+PDBs: 1rqgA02, 2x1lB02
+KYRLENSGLIRWGPVPV
+[25, 90, 100, 101, 106, 119, 123, 128, 129, 134, 136, 141, 142, 144, 145, 146, 156]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1rqgA02	K (OK)	Y (OK)	R (OK)	L (OK)	E (OK)	N (OK)	S (OK)	G (OK)	L (OK)	I (OK)	R (OK)	W (OK)	G (OK)	P (OK)	V (OK)	P (OK)	V (OK)
+2x1lB02	K (OK)	Y (OK)	R (OK)	L (OK)	E (OK)	N (OK)	S (OK)	G (OK)	L (OK)	I (OK)	R (OK)	W (OK)	G (OK)	P (OK)	V (OK)	P (OK)	V (OK)

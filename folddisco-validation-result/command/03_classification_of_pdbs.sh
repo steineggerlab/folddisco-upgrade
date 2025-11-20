@@ -1,8 +1,8 @@
 #Script to cluster pdbs by CAT and prepare running Folddisco queries on them
 
-foldmason_result_dir='data/query_sequences_1'
+foldmason_result_dir='data/query_sequences_3'
 pdbs_dir='data/index_pdbs'
-output_dir='data/classified_pdbs/pdbs_'
+output_dir='data/classified_pdbs_3/pdbs_'
 
 for file in $foldmason_result_dir/*_query.txt; do
     cat_id=$(basename "$file" _query.txt)

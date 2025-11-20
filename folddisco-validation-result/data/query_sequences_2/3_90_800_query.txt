@@ -1,0 +1,9 @@
+>3_90_800_query
+PDBs: 5zdkA01, 6b1pA02
+ELEKAYELRVRKDRP
+[8, 17, 20, 22, 23, 24, 32, 36, 37, 71, 73, 75, 103, 108, 125]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+5zdkA01	E (OK)	L (OK)	E (OK)	K (OK)	A (OK)	Y (OK)	E (OK)	L (OK)	R (OK)	V (OK)	R (OK)	K (OK)	D (OK)	R (OK)	P (OK)
+6b1pA02	E (OK)	L (OK)	E (OK)	K (OK)	A (OK)	Y (OK)	E (OK)	L (OK)	R (OK)	V (OK)	R (OK)	K (OK)	D (OK)	R (OK)	P (OK)

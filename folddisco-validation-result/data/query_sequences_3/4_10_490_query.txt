@@ -1,0 +1,9 @@
+>4_10_490_query
+PDBs: 1b0yA00, 1isuA00
+AAYACCGCPGIGCK
+[11, 15, 18, 22, 42, 45, 63, 64, 68, 69, 73, 77, 79, 85]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1b0yA00	A (OK)	A (OK)	Y (OK)	A (OK)	C (OK)	C (OK)	G (OK)	C (OK)	P (OK)	G (OK)	I (OK)	G (OK)	C (OK)	K (OK)
+1isuA00	A (OK)	A (OK)	Y (OK)	A (OK)	C (OK)	C (OK)	G (OK)	C (OK)	P (OK)	G (OK)	I (OK)	G (OK)	C (OK)	K (OK)

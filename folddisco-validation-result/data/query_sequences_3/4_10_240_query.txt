@@ -1,0 +1,11 @@
+>4_10_240_query
+PDBs: 1d66A00, 1pycA00, 1f4sP00, 1zmeC01
+CCRKKKCCCC
+[13, 16, 17, 18, 20, 22, 23, 30, 33, 42]
+[1.0, 1.0, 1.0, 0.75, 0.75, 0.75, 1.0, 0.75, 0.75, 0.75]
+
+# Match Table
+1d66A00	C (OK)	C (OK)	R (OK)	L (X)	K (OK)	K (OK)	C (OK)	C (OK)	C (OK)	C (OK)
+1pycA00	C (OK)	C (OK)	R (OK)	K (OK)	K (OK)	K (OK)	C (OK)	C (OK)	C (OK)	C (OK)
+1f4sP00	C (OK)	C (OK)	R (OK)	K (OK)	K (OK)	R (X)	C (OK)	R (X)	A (X)	S (X)
+1zmeC01	C (OK)	C (OK)	R (OK)	K (OK)	H (X)	K (OK)	C (OK)	C (OK)	C (OK)	C (OK)

@@ -1,0 +1,9 @@
+>3_30_1340_query
+PDBs: 3ihsA00, 5t17A00
+VVKGARPAFAGASLGIGEEALAA
+[4, 8, 13, 15, 18, 19, 20, 21, 31, 33, 42, 47, 49, 56, 61, 64, 70, 74, 75, 76, 77, 79, 82]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+3ihsA00	V (OK)	V (OK)	K (OK)	G (OK)	A (OK)	R (OK)	P (OK)	A (OK)	F (OK)	A (OK)	G (OK)	A (OK)	S (OK)	L (OK)	G (OK)	I (OK)	G (OK)	E (OK)	E (OK)	A (OK)	L (OK)	A (OK)	A (OK)
+5t17A00	V (OK)	V (OK)	K (OK)	G (OK)	A (OK)	R (OK)	P (OK)	A (OK)	F (OK)	A (OK)	G (OK)	A (OK)	S (OK)	L (OK)	G (OK)	I (OK)	G (OK)	E (OK)	E (OK)	A (OK)	L (OK)	A (OK)	A (OK)

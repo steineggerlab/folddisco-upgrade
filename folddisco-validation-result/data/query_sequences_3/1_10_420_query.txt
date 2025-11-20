@@ -1,0 +1,12 @@
+>1_10_420_query
+PDBs: 3uw8A02, 8ff7A02, 4uscA02, 1b85A02, 3vliA04
+ELPD
+[33, 37, 71, 132]
+[0.8, 0.8, 1.0, 1.0]
+
+# Match Table
+3uw8A02	E (OK)	L (OK)	P (OK)	D (OK)
+8ff7A02	D (X)	L (OK)	P (OK)	D (OK)
+4uscA02	E (OK)	L (OK)	P (OK)	D (OK)
+1b85A02	E (OK)	M (X)	P (OK)	D (OK)
+3vliA04	E (OK)	L (OK)	P (OK)	D (OK)

@@ -1,0 +1,9 @@
+>2_60_420_query
+PDBs: 1h54A03, 6gszA05
+DTG
+[47, 65, 73]
+[1.0, 1.0, 1.0]
+
+# Match Table
+1h54A03	D (OK)	T (OK)	G (OK)
+6gszA05	D (OK)	T (OK)	G (OK)

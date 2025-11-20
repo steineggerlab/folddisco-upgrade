@@ -1,16 +1,19 @@
 #Python script to analyze FoldMason validation results
 
 from Bio import AlignIO, SeqIO
+from Bio.PDB import PDBParser
 from collections import Counter
 import numpy as np
+import itertools
 import os
 
 DATA_DIR = "data/foldmason_1"
-RESULT_DIR = "data/query_sequences_1"
+RESULT_DIR = "data/query_sequences_3"
 FASTA_FILE = "result_aa.fa"
 CUTOFF_COLUMN = 0.66
 CUTOFF_COLUMN_MIN = 0
 CUTOFF_QUERY_MIN = 1
+CUTOFF_DISTANCE = 50
 
 # Read MSA from a given file path
 def read_alignment(file_path):
@@ -67,6 +70,18 @@ def extract_query(msa, conserved_columns):
         query_sequence.append(most_common_residue)
     return query_sequence
 
+
+def column_match_table(alignment_matrix, pdb_list, conserved_columns, query_sequence):
+    table = []
+    for seq_idx, pdb in enumerate(pdb_list):
+        row = [pdb]
+        for q_idx, col in enumerate(conserved_columns):
+            res = alignment_matrix[seq_idx][col]
+            qres = query_sequence[q_idx]
+            row.append(f"{res} ({'OK' if res == qres else 'X'})")
+        table.append(row)
+    return table
+
 def main():
     for filename in os.listdir(DATA_DIR):
         msa = read_alignment(os.path.join(DATA_DIR, filename))
@@ -88,6 +103,13 @@ def main():
                 f.write("".join(query_sequence) + "\n")
                 f.write("".join(str(conserved_columns)) + "\n")
                 f.write("".join(str(frequency_columns)) + "\n")
+
+            match_table = column_match_table(alignment_matrix, pdb_list,
+                                 conserved_columns, query_sequence)
+            with open(os.path.join(RESULT_DIR, f"{filename}_query.txt"), "a") as f:
+                f.write("\n# Match Table\n")
+                for row in match_table:
+                    f.write("\t".join(row) + "\n")
         
 
 if __name__ == "__main__":

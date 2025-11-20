@@ -1,0 +1,9 @@
+>2_40_20_query
+PDBs: 1i71A00, 2pf2A00
+CGGYRGSTGCQWSPHPLNCRNPDPWCYTPRECC
+[65, 68, 70, 73, 74, 75, 78, 80, 83, 86, 87, 89, 91, 94, 95, 105, 109, 112, 114, 115, 116, 117, 118, 124, 125, 126, 127, 128, 131, 134, 136, 138, 143]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1i71A00	C (OK)	G (OK)	G (OK)	Y (OK)	R (OK)	G (OK)	S (OK)	T (OK)	G (OK)	C (OK)	Q (OK)	W (OK)	S (OK)	P (OK)	H (OK)	P (OK)	L (OK)	N (OK)	C (OK)	R (OK)	N (OK)	P (OK)	D (OK)	P (OK)	W (OK)	C (OK)	Y (OK)	T (OK)	P (OK)	R (OK)	E (OK)	C (OK)	C (OK)
+2pf2A00	C (OK)	G (OK)	G (OK)	Y (OK)	R (OK)	G (OK)	S (OK)	T (OK)	G (OK)	C (OK)	Q (OK)	W (OK)	S (OK)	P (OK)	H (OK)	P (OK)	L (OK)	N (OK)	C (OK)	R (OK)	N (OK)	P (OK)	D (OK)	P (OK)	W (OK)	C (OK)	Y (OK)	T (OK)	P (OK)	R (OK)	E (OK)	C (OK)	C (OK)

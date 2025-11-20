@@ -1,0 +1,12 @@
+>3_50_7_query
+PDBs: 1grlA03, 3p9dD03, 6tmvC01, 7ylvg01, 7ylyb01
+EIAG
+[24, 94, 150, 154]
+[0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+1grlA03	E (OK)	I (OK)	A (OK)	G (OK)
+3p9dD03	E (OK)	L (X)	S (X)	G (OK)
+6tmvC01	T (X)	I (OK)	A (OK)	N (X)
+7ylvg01	E (OK)	I (OK)	A (OK)	G (OK)
+7ylyb01	E (OK)	I (OK)	A (OK)	G (OK)

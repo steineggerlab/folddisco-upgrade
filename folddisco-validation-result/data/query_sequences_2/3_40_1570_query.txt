@@ -1,0 +1,11 @@
+>3_40_1570_query
+PDBs: 2hqvA00, 2j0rA02, 3fm2A00, 1u9tA01
+AGEIVVEGSFG
+[103, 108, 109, 113, 114, 120, 122, 125, 177, 180, 185]
+[0.75, 0.75, 0.75, 0.75, 0.75, 1.0, 0.75, 1.0, 0.75, 0.75, 0.75]
+
+# Match Table
+2hqvA00	M (X)	G (OK)	E (OK)	I (OK)	V (OK)	V (OK)	E (OK)	G (OK)	S (OK)	F (OK)	G (OK)
+2j0rA02	A (OK)	N (X)	E (OK)	F (X)	V (OK)	V (OK)	I (X)	G (OK)	S (OK)	L (X)	G (OK)
+3fm2A00	A (OK)	G (OK)	T (X)	I (OK)	V (OK)	V (OK)	E (OK)	G (OK)	A (X)	F (OK)	Q (X)
+1u9tA01	A (OK)	G (OK)	E (OK)	I (OK)	C (X)	V (OK)	E (OK)	G (OK)	S (OK)	F (OK)	G (OK)

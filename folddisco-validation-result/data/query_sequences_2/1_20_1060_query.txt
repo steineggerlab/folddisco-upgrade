@@ -1,0 +1,9 @@
+>1_20_1060_query
+PDBs: 1t7pA02, 7k5sA02
+DTKEELAEGFNSLKTKVLEIYKELV
+[2, 3, 4, 7, 12, 13, 14, 26, 29, 76, 77, 80, 88, 98, 100, 102, 111, 112, 113, 130, 133, 138, 145, 151, 154]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1t7pA02	D (OK)	T (OK)	K (OK)	E (OK)	E (OK)	L (OK)	A (OK)	E (OK)	G (OK)	F (OK)	N (OK)	S (OK)	L (OK)	K (OK)	T (OK)	K (OK)	V (OK)	L (OK)	E (OK)	I (OK)	Y (OK)	K (OK)	E (OK)	L (OK)	V (OK)
+7k5sA02	D (OK)	T (OK)	K (OK)	E (OK)	E (OK)	L (OK)	A (OK)	E (OK)	G (OK)	F (OK)	N (OK)	S (OK)	L (OK)	K (OK)	T (OK)	K (OK)	V (OK)	L (OK)	E (OK)	I (OK)	Y (OK)	K (OK)	E (OK)	L (OK)	V (OK)

@@ -1,0 +1,9 @@
+>3_10_400_query
+PDBs: 1i2dA02, 3s9xA00
+LESADKQGIIGAV
+[13, 23, 30, 33, 65, 95, 101, 103, 119, 122, 142, 149, 184]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1i2dA02	L (OK)	E (OK)	S (OK)	A (OK)	D (OK)	K (OK)	Q (OK)	G (OK)	I (OK)	I (OK)	G (OK)	A (OK)	V (OK)
+3s9xA00	L (OK)	E (OK)	S (OK)	A (OK)	D (OK)	K (OK)	Q (OK)	G (OK)	I (OK)	I (OK)	G (OK)	A (OK)	V (OK)
