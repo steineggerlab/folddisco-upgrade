@@ -1,0 +1,9 @@
+>3_10_120_query
+PDBs: 1cxyA00, 4b8nB00
+LAHDCWIVYDLTPHPGGTEPLLG
+[16, 20, 22, 27, 28, 29, 32, 36, 37, 38, 39, 40, 44, 46, 47, 48, 58, 62, 63, 73, 77, 81, 88]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1cxyA00	L (OK)	A (OK)	H (OK)	D (OK)	C (OK)	W (OK)	I (OK)	V (OK)	Y (OK)	D (OK)	L (OK)	T (OK)	P (OK)	H (OK)	P (OK)	G (OK)	G (OK)	T (OK)	E (OK)	P (OK)	L (OK)	L (OK)	G (OK)
+4b8nB00	L (OK)	A (OK)	H (OK)	D (OK)	C (OK)	W (OK)	I (OK)	V (OK)	Y (OK)	D (OK)	L (OK)	T (OK)	P (OK)	H (OK)	P (OK)	G (OK)	G (OK)	T (OK)	E (OK)	P (OK)	L (OK)	L (OK)	G (OK)

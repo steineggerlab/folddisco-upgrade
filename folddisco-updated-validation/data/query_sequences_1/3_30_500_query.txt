@@ -1,5 +1,0 @@
->3_30_500_query
-PDBs: 4f7eA01, 5bxfA01, 4pp8D00, 1u58A01, 4pdcE00, 1lqvB00, 3it8D01, 1r3hA01
-LC
-[5, 108]
-[0.875, 0.875]

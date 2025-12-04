@@ -1,5 +1,0 @@
->1_10_540_query
-PDBs: 2c12A01, 3owaA01, 4rm7A01, 6cxtB01, 4hr3A01, 5k3hA01, 6wy9B01, 1r2jA01, 5z8tB01, 4xvxA01
-GGE
-[83, 97, 110]
-[0.7, 0.7, 0.7]

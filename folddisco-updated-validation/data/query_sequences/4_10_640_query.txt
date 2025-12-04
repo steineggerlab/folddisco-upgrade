@@ -1,0 +1,9 @@
+>4_10_640_query
+PDBs: 2uubR00, 6nqbR00
+YLKEGKIPRTGQRLAIKRARLLLPT
+[18, 24, 25, 30, 32, 33, 34, 36, 38, 40, 41, 47, 48, 50, 51, 54, 55, 56, 57, 58, 60, 62, 63, 64, 66]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2uubR00	Y (OK)	L (OK)	K (OK)	E (OK)	G (OK)	K (OK)	I (OK)	P (OK)	R (OK)	T (OK)	G (OK)	Q (OK)	R (OK)	L (OK)	A (OK)	I (OK)	K (OK)	R (OK)	A (OK)	R (OK)	L (OK)	L (OK)	L (OK)	P (OK)	T (OK)
+6nqbR00	Y (OK)	L (OK)	K (OK)	E (OK)	G (OK)	K (OK)	I (OK)	P (OK)	R (OK)	T (OK)	G (OK)	Q (OK)	R (OK)	L (OK)	A (OK)	I (OK)	K (OK)	R (OK)	A (OK)	R (OK)	L (OK)	L (OK)	L (OK)	P (OK)	T (OK)

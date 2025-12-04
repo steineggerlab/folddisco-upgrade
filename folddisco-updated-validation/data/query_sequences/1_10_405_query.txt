@@ -1,0 +1,14 @@
+>1_10_405_query
+PDBs: 2yg5A03, 6lqlA03, 8eefB01, 1vg0A03, 6c87A03, 1reoA03, 2e1mA05
+DL
+[79, 87]
+[0.7142857142857143, 0.7142857142857143]
+
+# Match Table
+2yg5A03	D (OK)	L (OK)
+6lqlA03	D (OK)	L (OK)
+8eefB01	D (OK)	V (X)
+1vg0A03	E (X)	L (OK)
+6c87A03	S (X)	Y (X)
+1reoA03	D (OK)	L (OK)
+2e1mA05	D (OK)	L (OK)

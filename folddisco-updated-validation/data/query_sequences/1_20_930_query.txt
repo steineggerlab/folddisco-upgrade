@@ -1,0 +1,11 @@
+>1_20_930_query
+PDBs: 1eo0A00, 3fedA03, 3op0A01, 4btfA01
+EKLE
+[21, 25, 42, 82]
+[0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+1eo0A00	E (OK)	K (OK)	L (OK)	E (OK)
+3fedA03	N (X)	K (OK)	L (OK)	E (OK)
+3op0A01	E (OK)	V (X)	L (OK)	E (OK)
+4btfA01	E (OK)	K (OK)	V (X)	D (X)

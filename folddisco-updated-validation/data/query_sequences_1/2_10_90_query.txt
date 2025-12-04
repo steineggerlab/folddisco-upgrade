@@ -1,5 +1,0 @@
->2_10_90_query
-PDBs: 1mjvA00, 3mjkA00, 1m4uA01, 5aejB00, 5bq8A00, 1reuA00, 1hcnB00, 3e07A00, 1betA00, 5vb9A01, 1aocA00, 1hcnA00
-CC
-[209, 211]
-[1.0, 0.9166666666666666]

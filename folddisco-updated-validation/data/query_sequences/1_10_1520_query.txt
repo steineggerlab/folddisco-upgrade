@@ -1,0 +1,12 @@
+>1_10_1520_query
+PDBs: 1vw4900, 3c4bA01, 2qvwA04, 3rv1B02, 1vw4501
+LLGLLAGAI
+[103, 106, 107, 111, 131, 206, 214, 215, 216]
+[1.0, 0.8, 1.0, 1.0, 1.0, 0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+1vw4900	L (OK)	L (OK)	G (OK)	L (OK)	L (OK)	A (OK)	G (OK)	A (OK)	I (OK)
+3c4bA01	L (OK)	L (OK)	G (OK)	L (OK)	L (OK)	G (X)	G (OK)	A (OK)	I (OK)
+2qvwA04	L (OK)	L (OK)	G (OK)	L (OK)	L (OK)	A (OK)	G (OK)	S (X)	I (OK)
+3rv1B02	L (OK)	L (OK)	G (OK)	L (OK)	L (OK)	A (OK)	G (OK)	A (OK)	L (X)
+1vw4501	L (OK)	M (X)	G (OK)	L (OK)	L (OK)	A (OK)	A (X)	A (OK)	I (OK)
