@@ -1,0 +1,9 @@
+>2_170_30_query
+PDBs: 1c8dA00, 1s58A00
+FTSRYTPWDNAFPQIKVTLDPPPYDFYELLTGFPLQPRAGSSEEGNTNYQWKDPQFKPSVYFKRAWNPYVGL
+[14, 25, 29, 30, 42, 73, 74, 75, 79, 81, 82, 87, 89, 93, 111, 117, 119, 136, 139, 144, 150, 165, 171, 176, 181, 209, 210, 213, 220, 221, 223, 224, 233, 238, 241, 246, 254, 280, 302, 311, 324, 328, 377, 380, 400, 409, 413, 446, 452, 456, 458, 460, 465, 485, 487, 489, 491, 494, 505, 512, 514, 525, 526, 530, 532, 536, 537, 538, 553, 554, 570, 587]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1c8dA00	F (OK)	T (OK)	S (OK)	R (OK)	Y (OK)	T (OK)	P (OK)	W (OK)	D (OK)	N (OK)	A (OK)	F (OK)	P (OK)	Q (OK)	I (OK)	K (OK)	V (OK)	T (OK)	L (OK)	D (OK)	P (OK)	P (OK)	P (OK)	Y (OK)	D (OK)	F (OK)	Y (OK)	E (OK)	L (OK)	L (OK)	T (OK)	G (OK)	F (OK)	P (OK)	L (OK)	Q (OK)	P (OK)	R (OK)	A (OK)	G (OK)	S (OK)	S (OK)	E (OK)	E (OK)	G (OK)	N (OK)	T (OK)	N (OK)	Y (OK)	Q (OK)	W (OK)	K (OK)	D (OK)	P (OK)	Q (OK)	F (OK)	K (OK)	P (OK)	S (OK)	V (OK)	Y (OK)	F (OK)	K (OK)	R (OK)	A (OK)	W (OK)	N (OK)	P (OK)	Y (OK)	V (OK)	G (OK)	L (OK)
+1s58A00	F (OK)	T (OK)	S (OK)	R (OK)	Y (OK)	T (OK)	P (OK)	W (OK)	D (OK)	N (OK)	A (OK)	F (OK)	P (OK)	Q (OK)	I (OK)	K (OK)	V (OK)	T (OK)	L (OK)	D (OK)	P (OK)	P (OK)	P (OK)	Y (OK)	D (OK)	F (OK)	Y (OK)	E (OK)	L (OK)	L (OK)	T (OK)	G (OK)	F (OK)	P (OK)	L (OK)	Q (OK)	P (OK)	R (OK)	A (OK)	G (OK)	S (OK)	S (OK)	E (OK)	E (OK)	G (OK)	N (OK)	T (OK)	N (OK)	Y (OK)	Q (OK)	W (OK)	K (OK)	D (OK)	P (OK)	Q (OK)	F (OK)	K (OK)	P (OK)	S (OK)	V (OK)	Y (OK)	F (OK)	K (OK)	R (OK)	A (OK)	W (OK)	N (OK)	P (OK)	Y (OK)	V (OK)	G (OK)	L (OK)

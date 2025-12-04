@@ -1,0 +1,12 @@
+>3_90_700_query
+PDBs: 5zynB01, 7p18A01, 2e5vA02, 6b58A01, 3gyxA02
+NGRP
+[36, 40, 42, 89]
+[0.8, 1.0, 0.8, 0.8]
+
+# Match Table
+5zynB01	H (X)	G (OK)	R (OK)	I (X)
+7p18A01	N (OK)	G (OK)	R (OK)	P (OK)
+2e5vA02	N (OK)	G (OK)	R (OK)	P (OK)
+6b58A01	N (OK)	G (OK)	R (OK)	P (OK)
+3gyxA02	N (OK)	G (OK)	E (X)	P (OK)

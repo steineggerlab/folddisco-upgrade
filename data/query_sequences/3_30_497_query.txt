@@ -1,0 +1,12 @@
+>3_30_497_query
+PDBs: 4r9iA01, 5c98A01, 2wxyC02, 1attB02, 3stoA01
+PLTLDLLFL
+[56, 63, 76, 112, 163, 206, 241, 242, 271]
+[0.8, 0.8, 0.8, 0.8, 1.0, 0.8, 0.8, 0.8, 1.0]
+
+# Match Table
+4r9iA01	A (X)	L (OK)	T (OK)	V (X)	D (OK)	L (OK)	L (OK)	F (OK)	L (OK)
+5c98A01	P (OK)	L (OK)	V (X)	L (OK)	D (OK)	L (OK)	V (X)	F (OK)	L (OK)
+2wxyC02	P (OK)	L (OK)	T (OK)	L (OK)	D (OK)	F (X)	L (OK)	G (X)	L (OK)
+1attB02	P (OK)	F (X)	T (OK)	L (OK)	D (OK)	L (OK)	L (OK)	F (OK)	L (OK)
+3stoA01	P (OK)	L (OK)	T (OK)	L (OK)	D (OK)	L (OK)	L (OK)	F (OK)	L (OK)

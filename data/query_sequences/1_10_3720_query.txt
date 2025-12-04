@@ -1,0 +1,11 @@
+>1_10_3720_query
+PDBs: 2onkC00, 3rlfG01, 7cafA01, 7mc0A01
+TSVGTLARGKPVAVAVLAAGAPVLPAL
+[82, 89, 94, 97, 98, 100, 101, 113, 118, 119, 133, 135, 140, 174, 176, 196, 200, 203, 204, 208, 209, 211, 218, 220, 221, 277, 284]
+[0.75, 1.0, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 1.0, 1.0, 0.75, 1.0, 1.0, 1.0, 0.75, 0.75, 0.75]
+
+# Match Table
+2onkC00	T (OK)	S (OK)	V (OK)	G (OK)	T (OK)	L (OK)	A (OK)	R (OK)	G (OK)	K (OK)	P (OK)	T (X)	A (OK)	V (OK)	A (OK)	V (OK)	L (OK)	V (X)	A (OK)	G (OK)	S (X)	P (OK)	V (OK)	L (OK)	P (OK)	A (OK)	S (X)
+3rlfG01	S (X)	S (OK)	V (OK)	S (X)	T (OK)	C (X)	A (OK)	R (OK)	G (OK)	K (OK)	P (OK)	V (OK)	A (OK)	I (X)	A (OK)	I (X)	L (OK)	A (OK)	A (OK)	G (OK)	A (OK)	P (OK)	V (OK)	L (OK)	P (OK)	A (OK)	L (OK)
+7cafA01	T (OK)	S (OK)	F (X)	G (OK)	L (X)	L (OK)	A (OK)	R (OK)	G (OK)	K (OK)	V (X)	V (OK)	S (X)	V (OK)	A (OK)	V (OK)	L (OK)	A (OK)	A (OK)	G (OK)	A (OK)	P (OK)	V (OK)	L (OK)	P (OK)	A (OK)	L (OK)
+7mc0A01	T (OK)	S (OK)	V (OK)	G (OK)	T (OK)	L (OK)	G (X)	H (X)	V (X)	N (X)	P (OK)	V (OK)	A (OK)	V (OK)	S (X)	V (OK)	V (X)	A (OK)	A (OK)	G (OK)	A (OK)	P (OK)	V (OK)	L (OK)	N (X)	F (X)	L (OK)

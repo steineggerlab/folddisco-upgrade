@@ -1,0 +1,22 @@
+>3_30_465_query
+PDBs: 3vteA02, 6fyeA02, 2ipiA01, 1wvfA02, 2i0kA02, 1ffvC03, 2w3sA04, 4jb1A02, 1hskA01, 2rk5A00, 2p13A00, 2pliA00, 1f0xA03, 2exrA02, 2uuuA02
+GGGV
+[118, 161, 162, 199]
+[0.6666666666666666, 0.8, 0.9333333333333333, 0.6666666666666666]
+
+# Match Table
+3vteA02	G (OK)	G (OK)	G (OK)	V (OK)
+6fyeA02	G (OK)	G (OK)	G (OK)	V (OK)
+2ipiA01	G (OK)	G (OK)	G (OK)	V (OK)
+1wvfA02	G (OK)	V (X)	G (OK)	V (OK)
+2i0kA02	G (OK)	G (OK)	G (OK)	V (OK)
+1ffvC03	M (X)	G (OK)	G (OK)	E (X)
+2w3sA04	G (OK)	G (OK)	G (OK)	R (X)
+4jb1A02	E (X)	G (OK)	A (X)	L (X)
+1hskA01	G (OK)	G (OK)	G (OK)	V (OK)
+2rk5A00	T (X)	A (X)	G (OK)	V (OK)
+2p13A00	W (X)	G (OK)	G (OK)	I (X)
+2pliA00	A (X)	G (OK)	G (OK)	V (OK)
+1f0xA03	G (OK)	I (X)	G (OK)	A (X)
+2exrA02	G (OK)	G (OK)	G (OK)	V (OK)
+2uuuA02	G (OK)	G (OK)	G (OK)	V (OK)

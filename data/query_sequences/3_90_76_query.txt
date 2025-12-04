@@ -1,0 +1,12 @@
+>3_90_76_query
+PDBs: 5hm4B02, 7kz9B01, 4qflA02, 4fajA02, 5yqwA02
+LDLASDTRDTADL
+[34, 38, 49, 50, 57, 59, 64, 68, 82, 87, 88, 90, 144]
+[0.8, 0.8, 0.8, 1.0, 0.8, 0.8, 0.8, 1.0, 0.8, 0.8, 0.8, 1.0, 0.8]
+
+# Match Table
+5hm4B02	M (X)	D (OK)	L (OK)	A (OK)	W (X)	D (OK)	R (X)	R (OK)	D (OK)	T (OK)	S (X)	D (OK)	F (X)
+7kz9B01	L (OK)	D (OK)	L (OK)	A (OK)	S (OK)	D (OK)	T (OK)	R (OK)	D (OK)	T (OK)	A (OK)	D (OK)	L (OK)
+4qflA02	L (OK)	D (OK)	L (OK)	A (OK)	S (OK)	D (OK)	T (OK)	R (OK)	P (X)	N (X)	A (OK)	D (OK)	L (OK)
+4fajA02	L (OK)	D (OK)	I (X)	A (OK)	S (OK)	N (X)	T (OK)	R (OK)	D (OK)	T (OK)	A (OK)	D (OK)	L (OK)
+5yqwA02	L (OK)	N (X)	L (OK)	A (OK)	S (OK)	D (OK)	T (OK)	R (OK)	D (OK)	T (OK)	A (OK)	D (OK)	L (OK)

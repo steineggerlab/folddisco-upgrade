@@ -1,0 +1,9 @@
+>1_10_3130_query
+PDBs: 1t3dA01, 3f1xA01
+LALLLPEADADPAAYRIHLGF
+[8, 17, 47, 51, 59, 83, 84, 90, 92, 95, 100, 101, 102, 118, 122, 123, 124, 126, 128, 132, 139]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1t3dA01	L (OK)	A (OK)	L (OK)	L (OK)	L (OK)	P (OK)	E (OK)	A (OK)	D (OK)	A (OK)	D (OK)	P (OK)	A (OK)	A (OK)	Y (OK)	R (OK)	I (OK)	H (OK)	L (OK)	G (OK)	F (OK)
+3f1xA01	L (OK)	A (OK)	L (OK)	L (OK)	L (OK)	P (OK)	E (OK)	A (OK)	D (OK)	A (OK)	D (OK)	P (OK)	A (OK)	A (OK)	Y (OK)	R (OK)	I (OK)	H (OK)	L (OK)	G (OK)	F (OK)

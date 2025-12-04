@@ -1,0 +1,9 @@
+>1_10_3460_query
+PDBs: 2o01200, 7blz301
+LEATTTLLGGKEKNGRLAMAWQG
+[25, 32, 44, 65, 75, 76, 78, 83, 105, 117, 127, 133, 135, 136, 137, 138, 139, 140, 141, 143, 148, 150, 155]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2o01200	L (OK)	E (OK)	A (OK)	T (OK)	T (OK)	T (OK)	L (OK)	L (OK)	G (OK)	G (OK)	K (OK)	E (OK)	K (OK)	N (OK)	G (OK)	R (OK)	L (OK)	A (OK)	M (OK)	A (OK)	W (OK)	Q (OK)	G (OK)
+7blz301	L (OK)	E (OK)	A (OK)	T (OK)	T (OK)	T (OK)	L (OK)	L (OK)	G (OK)	G (OK)	K (OK)	E (OK)	K (OK)	N (OK)	G (OK)	R (OK)	L (OK)	A (OK)	M (OK)	A (OK)	W (OK)	Q (OK)	G (OK)

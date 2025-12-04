@@ -1,0 +1,12 @@
+>3_30_2310_query
+PDBs: 3bpqD00, 3kxeA00, 3kiuy00, 4ls4A00, 4q2uL00
+KDYR
+[13, 14, 76, 90]
+[0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+3bpqD00	K (OK)	D (OK)	I (X)	R (OK)
+3kxeA00	A (X)	D (OK)	Y (OK)	R (OK)
+3kiuy00	K (OK)	E (X)	Y (OK)	S (X)
+4ls4A00	K (OK)	D (OK)	Y (OK)	R (OK)
+4q2uL00	K (OK)	D (OK)	Y (OK)	R (OK)

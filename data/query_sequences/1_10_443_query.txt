@@ -1,0 +1,12 @@
+>1_10_443_query
+PDBs: 1m6xA02, 1pvrA01, 1aihA00, 2a3vA02, 1ae9A00
+RKHRAGG
+[57, 89, 210, 213, 217, 224, 236]
+[1.0, 1.0, 1.0, 1.0, 0.8, 0.8, 0.8]
+
+# Match Table
+1m6xA02	R (OK)	K (OK)	H (OK)	R (OK)	T (X)	G (OK)	N (X)
+1pvrA01	R (OK)	K (OK)	H (OK)	R (OK)	A (OK)	G (OK)	G (OK)
+1aihA00	R (OK)	K (OK)	H (OK)	R (OK)	A (OK)	G (OK)	G (OK)
+2a3vA02	R (OK)	K (OK)	H (OK)	R (OK)	A (OK)	G (OK)	G (OK)
+1ae9A00	R (OK)	K (OK)	H (OK)	R (OK)	A (OK)	I (X)	G (OK)

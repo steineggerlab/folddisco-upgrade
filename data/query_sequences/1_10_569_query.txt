@@ -1,0 +1,9 @@
+>1_10_569_query
+PDBs: 1aorA02, 6x6uA02
+GTPNQESYCPCLGPYEGNLGIIDELGLDITGLAELYGELGWGIEGGLAEGYRAVK
+[23, 24, 39, 42, 44, 53, 55, 72, 74, 75, 78, 84, 91, 97, 99, 100, 106, 108, 109, 110, 111, 117, 125, 126, 127, 128, 129, 130, 132, 134, 135, 138, 141, 143, 144, 145, 148, 153, 155, 156, 163, 164, 176, 180, 181, 183, 186, 187, 188, 189, 191, 192, 194, 212, 213]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1aorA02	G (OK)	T (OK)	P (OK)	N (OK)	Q (OK)	E (OK)	S (OK)	Y (OK)	C (OK)	P (OK)	C (OK)	L (OK)	G (OK)	P (OK)	Y (OK)	E (OK)	G (OK)	N (OK)	L (OK)	G (OK)	I (OK)	I (OK)	D (OK)	E (OK)	L (OK)	G (OK)	L (OK)	D (OK)	I (OK)	T (OK)	G (OK)	L (OK)	A (OK)	E (OK)	L (OK)	Y (OK)	G (OK)	E (OK)	L (OK)	G (OK)	W (OK)	G (OK)	I (OK)	E (OK)	G (OK)	G (OK)	L (OK)	A (OK)	E (OK)	G (OK)	Y (OK)	R (OK)	A (OK)	V (OK)	K (OK)
+6x6uA02	G (OK)	T (OK)	P (OK)	N (OK)	Q (OK)	E (OK)	S (OK)	Y (OK)	C (OK)	P (OK)	C (OK)	L (OK)	G (OK)	P (OK)	Y (OK)	E (OK)	G (OK)	N (OK)	L (OK)	G (OK)	I (OK)	I (OK)	D (OK)	E (OK)	L (OK)	G (OK)	L (OK)	D (OK)	I (OK)	T (OK)	G (OK)	L (OK)	A (OK)	E (OK)	L (OK)	Y (OK)	G (OK)	E (OK)	L (OK)	G (OK)	W (OK)	G (OK)	I (OK)	E (OK)	G (OK)	G (OK)	L (OK)	A (OK)	E (OK)	G (OK)	Y (OK)	R (OK)	A (OK)	V (OK)	K (OK)
