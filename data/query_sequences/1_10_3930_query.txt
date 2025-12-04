@@ -1,9 +1,0 @@
->1_10_3930_query
-PDBs: 1rxxA02, 4e4jA02
-LETELSGAL
-[3, 6, 7, 14, 43, 45, 58, 61, 64]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1rxxA02	L (OK)	E (OK)	T (OK)	E (OK)	L (OK)	S (OK)	G (OK)	A (OK)	L (OK)
-4e4jA02	L (OK)	E (OK)	T (OK)	E (OK)	L (OK)	S (OK)	G (OK)	A (OK)	L (OK)

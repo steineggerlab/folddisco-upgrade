@@ -1,9 +1,0 @@
->3_40_1690_query
-PDBs: 3b0zB00, 3bzyB00
-PTHLYPVGALIPEPLARLGQIVAL
-[0, 1, 2, 7, 9, 17, 19, 23, 28, 29, 31, 41, 44, 47, 48, 49, 50, 52, 59, 60, 62, 70, 71, 80]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3b0zB00	P (OK)	T (OK)	H (OK)	L (OK)	Y (OK)	P (OK)	V (OK)	G (OK)	A (OK)	L (OK)	I (OK)	P (OK)	E (OK)	P (OK)	L (OK)	A (OK)	R (OK)	L (OK)	G (OK)	Q (OK)	I (OK)	V (OK)	A (OK)	L (OK)
-3bzyB00	P (OK)	T (OK)	H (OK)	L (OK)	Y (OK)	P (OK)	V (OK)	G (OK)	A (OK)	L (OK)	I (OK)	P (OK)	E (OK)	P (OK)	L (OK)	A (OK)	R (OK)	L (OK)	G (OK)	Q (OK)	I (OK)	V (OK)	A (OK)	L (OK)

@@ -1,9 +1,0 @@
->1_10_3330_query
-PDBs: 2q37A00, 5z5mA01
-SATILEAHPLNYGFFITLALRPEAKIR
-[24, 28, 43, 54, 65, 66, 70, 71, 72, 94, 101, 104, 109, 110, 112, 113, 120, 125, 127, 128, 131, 136, 139, 143, 149, 150, 154]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2q37A00	S (OK)	A (OK)	T (OK)	I (OK)	L (OK)	E (OK)	A (OK)	H (OK)	P (OK)	L (OK)	N (OK)	Y (OK)	G (OK)	F (OK)	F (OK)	I (OK)	T (OK)	L (OK)	A (OK)	L (OK)	R (OK)	P (OK)	E (OK)	A (OK)	K (OK)	I (OK)	R (OK)
-5z5mA01	S (OK)	A (OK)	T (OK)	I (OK)	L (OK)	E (OK)	A (OK)	H (OK)	P (OK)	L (OK)	N (OK)	Y (OK)	G (OK)	F (OK)	F (OK)	I (OK)	T (OK)	L (OK)	A (OK)	L (OK)	R (OK)	P (OK)	E (OK)	A (OK)	K (OK)	I (OK)	R (OK)

@@ -1,9 +1,0 @@
->1_25_50_query
-PDBs: 4f5cA04, 5dllA05
-HNLASKLSLALFNTDAKALGPKSINFRSKLE
-[9, 32, 45, 65, 72, 91, 101, 136, 150, 151, 154, 155, 165, 174, 189, 191, 208, 214, 222, 227, 232, 237, 244, 246, 252, 277, 294, 297, 309, 327, 328]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-4f5cA04	H (OK)	N (OK)	L (OK)	A (OK)	S (OK)	K (OK)	L (OK)	S (OK)	L (OK)	A (OK)	L (OK)	F (OK)	N (OK)	T (OK)	D (OK)	A (OK)	K (OK)	A (OK)	L (OK)	G (OK)	P (OK)	K (OK)	S (OK)	I (OK)	N (OK)	F (OK)	R (OK)	S (OK)	K (OK)	L (OK)	E (OK)
-5dllA05	H (OK)	N (OK)	L (OK)	A (OK)	S (OK)	K (OK)	L (OK)	S (OK)	L (OK)	A (OK)	L (OK)	F (OK)	N (OK)	T (OK)	D (OK)	A (OK)	K (OK)	A (OK)	L (OK)	G (OK)	P (OK)	K (OK)	S (OK)	I (OK)	N (OK)	F (OK)	R (OK)	S (OK)	K (OK)	L (OK)	E (OK)

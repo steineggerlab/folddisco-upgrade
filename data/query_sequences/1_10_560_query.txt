@@ -1,9 +1,0 @@
->1_10_560_query
-PDBs: 1j4zA01, 6ks6q01
-KLGPGRNGITDREGDGTLAKGGAELGGISIKAERGVGIDAAA
-[28, 36, 45, 46, 48, 49, 50, 58, 62, 63, 65, 71, 72, 99, 100, 101, 102, 108, 109, 118, 123, 132, 136, 143, 144, 156, 158, 162, 166, 184, 185, 190, 192, 196, 203, 209, 226, 245, 247, 255, 259, 263]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1j4zA01	K (OK)	L (OK)	G (OK)	P (OK)	G (OK)	R (OK)	N (OK)	G (OK)	I (OK)	T (OK)	D (OK)	R (OK)	E (OK)	G (OK)	D (OK)	G (OK)	T (OK)	L (OK)	A (OK)	K (OK)	G (OK)	G (OK)	A (OK)	E (OK)	L (OK)	G (OK)	G (OK)	I (OK)	S (OK)	I (OK)	K (OK)	A (OK)	E (OK)	R (OK)	G (OK)	V (OK)	G (OK)	I (OK)	D (OK)	A (OK)	A (OK)	A (OK)
-6ks6q01	K (OK)	L (OK)	G (OK)	P (OK)	G (OK)	R (OK)	N (OK)	G (OK)	I (OK)	T (OK)	D (OK)	R (OK)	E (OK)	G (OK)	D (OK)	G (OK)	T (OK)	L (OK)	A (OK)	K (OK)	G (OK)	G (OK)	A (OK)	E (OK)	L (OK)	G (OK)	G (OK)	I (OK)	S (OK)	I (OK)	K (OK)	A (OK)	E (OK)	R (OK)	G (OK)	V (OK)	G (OK)	I (OK)	D (OK)	A (OK)	A (OK)	A (OK)

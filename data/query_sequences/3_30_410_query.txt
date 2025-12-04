@@ -1,9 +1,0 @@
->3_30_410_query
-PDBs: 2jbvA04, 4udqA02
-VAAEAGPGHVQGIDDLHGPSVDDAGRAPAPLYRV
-[10, 11, 15, 17, 19, 20, 22, 35, 49, 54, 61, 79, 80, 87, 93, 94, 97, 99, 102, 120, 125, 136, 141, 147, 148, 150, 157, 159, 162, 181, 193, 196, 198, 204]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2jbvA04	V (OK)	A (OK)	A (OK)	E (OK)	A (OK)	G (OK)	P (OK)	G (OK)	H (OK)	V (OK)	Q (OK)	G (OK)	I (OK)	D (OK)	D (OK)	L (OK)	H (OK)	G (OK)	P (OK)	S (OK)	V (OK)	D (OK)	D (OK)	A (OK)	G (OK)	R (OK)	A (OK)	P (OK)	A (OK)	P (OK)	L (OK)	Y (OK)	R (OK)	V (OK)
-4udqA02	V (OK)	A (OK)	A (OK)	E (OK)	A (OK)	G (OK)	P (OK)	G (OK)	H (OK)	V (OK)	Q (OK)	G (OK)	I (OK)	D (OK)	D (OK)	L (OK)	H (OK)	G (OK)	P (OK)	S (OK)	V (OK)	D (OK)	D (OK)	A (OK)	G (OK)	R (OK)	A (OK)	P (OK)	A (OK)	P (OK)	L (OK)	Y (OK)	R (OK)	V (OK)

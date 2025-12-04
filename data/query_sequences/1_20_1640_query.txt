@@ -1,9 +1,0 @@
->1_20_1640_query
-PDBs: 2dhhA05, 4mt1A01
-IVILPSPVFVVPGGVIGAIVEMEGEATAIPLAP
-[21, 30, 35, 46, 47, 49, 52, 76, 77, 96, 97, 98, 103, 113, 118, 128, 129, 135, 136, 139, 140, 146, 149, 150, 155, 156, 157, 160, 176, 181, 211, 212, 217]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2dhhA05	I (OK)	V (OK)	I (OK)	L (OK)	P (OK)	S (OK)	P (OK)	V (OK)	F (OK)	V (OK)	V (OK)	P (OK)	G (OK)	G (OK)	V (OK)	I (OK)	G (OK)	A (OK)	I (OK)	V (OK)	E (OK)	M (OK)	E (OK)	G (OK)	E (OK)	A (OK)	T (OK)	A (OK)	I (OK)	P (OK)	L (OK)	A (OK)	P (OK)
-4mt1A01	I (OK)	V (OK)	I (OK)	L (OK)	P (OK)	S (OK)	P (OK)	V (OK)	F (OK)	V (OK)	V (OK)	P (OK)	G (OK)	G (OK)	V (OK)	I (OK)	G (OK)	A (OK)	I (OK)	V (OK)	E (OK)	M (OK)	E (OK)	G (OK)	E (OK)	A (OK)	T (OK)	A (OK)	I (OK)	P (OK)	L (OK)	A (OK)	P (OK)
