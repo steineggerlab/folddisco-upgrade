@@ -1,0 +1,12 @@
+>3_90_120_query
+PDBs: 3ptaA01, 3ubtA02, 4fsxA03, 1g55A01, 1svuA02
+DRREARG
+[95, 197, 202, 203, 205, 206, 209]
+[0.8, 1.0, 0.8, 1.0, 1.0, 0.8, 1.0]
+
+# Match Table
+3ptaA01	D (OK)	R (OK)	R (OK)	E (OK)	A (OK)	R (OK)	G (OK)
+3ubtA02	D (OK)	R (OK)	R (OK)	E (OK)	A (OK)	R (OK)	G (OK)
+4fsxA03	D (OK)	R (OK)	R (OK)	E (OK)	A (OK)	R (OK)	G (OK)
+1g55A01	D (OK)	R (OK)	K (X)	E (OK)	A (OK)	N (X)	G (OK)
+1svuA02	E (X)	R (OK)	R (OK)	E (OK)	A (OK)	R (OK)	G (OK)

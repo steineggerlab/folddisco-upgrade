@@ -1,0 +1,21 @@
+>3_10_580_query
+PDBs: 3pc3A03, 6xwlE02, 3fv6A00, 3k2vA00, 2nycA00, 6n7eD01, 3lhhA01, 2d4zB00, 4nocD00, 2qrdE01, 1yavB00, 3orgA02, 2rihA00, 7ahhC02
+GVG
+[74, 170, 186]
+[0.7142857142857143, 0.8571428571428571, 0.8571428571428571]
+
+# Match Table
+3pc3A03	G (OK)	I (X)	A (X)
+6xwlE02	G (OK)	V (OK)	G (OK)
+3fv6A00	G (OK)	V (OK)	G (OK)
+3k2vA00	G (OK)	V (OK)	G (OK)
+2nycA00	N (X)	V (OK)	G (OK)
+6n7eD01	D (X)	V (OK)	G (OK)
+3lhhA01	G (OK)	V (OK)	G (OK)
+2d4zB00	G (OK)	V (OK)	G (OK)
+4nocD00	S (X)	V (OK)	G (OK)
+2qrdE01	G (OK)	L (X)	S (X)
+1yavB00	G (OK)	V (OK)	G (OK)
+3orgA02	G (OK)	V (OK)	G (OK)
+2rihA00	A (X)	V (OK)	G (OK)
+7ahhC02	G (OK)	V (OK)	G (OK)

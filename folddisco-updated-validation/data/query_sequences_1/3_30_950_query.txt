@@ -1,5 +1,0 @@
->3_30_950_query
-PDBs: 1ve2B02, 3fq6A00, 2bb3A02, 3nutB02, 3i4tA02, 2qbuA02, 1cbfA02, 3nd1A02
-AAE
-[6, 9, 105]
-[0.75, 0.75, 0.75]

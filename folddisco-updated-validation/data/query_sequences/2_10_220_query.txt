@@ -1,0 +1,12 @@
+>2_10_220_query
+PDBs: 3wlwA02, 4bsoA00, 7v3pB02, 1yy9A04, 3u7uA04
+CC
+[40, 44]
+[1.0, 1.0]
+
+# Match Table
+3wlwA02	C (OK)	C (OK)
+4bsoA00	C (OK)	C (OK)
+7v3pB02	C (OK)	C (OK)
+1yy9A04	C (OK)	C (OK)
+3u7uA04	C (OK)	C (OK)

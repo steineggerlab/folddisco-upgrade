@@ -1,0 +1,11 @@
+>3_40_1550_query
+PDBs: 3qtaB00, 4hynB00, 2hp7A00, 3hzhB00
+LLEVEGAGESENI
+[28, 32, 39, 65, 72, 73, 88, 93, 106, 110, 114, 117, 137]
+[1.0, 0.75, 0.75, 0.75, 0.75, 1.0, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+3qtaB00	L (OK)	A (X)	E (OK)	V (OK)	Y (X)	G (OK)	A (OK)	G (OK)	Q (X)	S (OK)	E (OK)	N (OK)	M (X)
+4hynB00	L (OK)	L (OK)	T (X)	V (OK)	E (OK)	G (OK)	A (OK)	G (OK)	E (OK)	S (OK)	E (OK)	N (OK)	I (OK)
+2hp7A00	L (OK)	L (OK)	E (OK)	T (X)	E (OK)	G (OK)	L (X)	G (OK)	E (OK)	S (OK)	K (X)	T (X)	I (OK)
+3hzhB00	L (OK)	L (OK)	E (OK)	V (OK)	E (OK)	G (OK)	A (OK)	F (X)	E (OK)	A (X)	E (OK)	N (OK)	I (OK)

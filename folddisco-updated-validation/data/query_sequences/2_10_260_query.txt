@@ -1,0 +1,12 @@
+>2_10_260_query
+PDBs: 1mvfD00, 3tndB01, 2fy9A00, 2l66A00, 3o27B00
+VPLD
+[16, 19, 26, 32]
+[0.8, 1.0, 0.8, 0.8]
+
+# Match Table
+1mvfD00	V (OK)	P (OK)	L (OK)	D (OK)
+3tndB01	V (OK)	P (OK)	L (OK)	K (X)
+2fy9A00	V (OK)	P (OK)	L (OK)	D (OK)
+2l66A00	V (OK)	P (OK)	F (X)	D (OK)
+3o27B00	L (X)	P (OK)	L (OK)	D (OK)

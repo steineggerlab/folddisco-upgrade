@@ -1,0 +1,19 @@
+>3_10_100_query
+PDBs: 2ls8A00, 3rs1A00, 2pf5D00, 4m1gA00, 1byfA00, 1dy2A00, 3fd4A00, 5b1rA00, 5ffsA00, 7jptA04, 1h8uB00, 3ncxA02
+ACLC
+[53, 57, 75, 210]
+[0.6666666666666666, 1.0, 0.8333333333333334, 1.0]
+
+# Match Table
+2ls8A00	S (X)	C (OK)	L (OK)	C (OK)
+3rs1A00	A (OK)	C (OK)	L (OK)	C (OK)
+2pf5D00	A (OK)	C (OK)	L (OK)	C (OK)
+4m1gA00	A (OK)	C (OK)	L (OK)	C (OK)
+1byfA00	A (OK)	C (OK)	L (OK)	C (OK)
+1dy2A00	A (OK)	C (OK)	L (OK)	C (OK)
+3fd4A00	F (X)	C (OK)	G (X)	C (OK)
+5b1rA00	S (X)	C (OK)	L (OK)	C (OK)
+5ffsA00	I (X)	C (OK)	I (X)	C (OK)
+7jptA04	A (OK)	C (OK)	L (OK)	C (OK)
+1h8uB00	A (OK)	C (OK)	L (OK)	C (OK)
+3ncxA02	A (OK)	C (OK)	L (OK)	C (OK)

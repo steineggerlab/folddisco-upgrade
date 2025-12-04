@@ -1,5 +1,0 @@
->3_10_150_query
-PDBs: 3f1vA02, 6ap4B01, 3t0pA01, 3pweA03, 6dlyA03, 1sxjH01, 3l0xB01, 5fveA02
-ADL
-[56, 59, 107]
-[0.75, 0.75, 0.75]

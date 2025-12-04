@@ -1,0 +1,9 @@
+>3_30_1320_query
+PDBs: 5aj3P00, 6nqbP00
+TIRLAGRPFYVASRGRFEGPELDRIHWGGASVL
+[8, 9, 10, 11, 12, 15, 19, 20, 21, 22, 25, 27, 29, 33, 35, 36, 37, 39, 42, 46, 53, 58, 61, 62, 63, 65, 66, 68, 70, 71, 74, 77, 80]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+5aj3P00	T (OK)	I (OK)	R (OK)	L (OK)	A (OK)	G (OK)	R (OK)	P (OK)	F (OK)	Y (OK)	V (OK)	A (OK)	S (OK)	R (OK)	G (OK)	R (OK)	F (OK)	E (OK)	G (OK)	P (OK)	E (OK)	L (OK)	D (OK)	R (OK)	I (OK)	H (OK)	W (OK)	G (OK)	G (OK)	A (OK)	S (OK)	V (OK)	L (OK)
+6nqbP00	T (OK)	I (OK)	R (OK)	L (OK)	A (OK)	G (OK)	R (OK)	P (OK)	F (OK)	Y (OK)	V (OK)	A (OK)	S (OK)	R (OK)	G (OK)	R (OK)	F (OK)	E (OK)	G (OK)	P (OK)	E (OK)	L (OK)	D (OK)	R (OK)	I (OK)	H (OK)	W (OK)	G (OK)	G (OK)	A (OK)	S (OK)	V (OK)	L (OK)

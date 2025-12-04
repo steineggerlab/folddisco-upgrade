@@ -1,0 +1,11 @@
+>3_30_2320_query
+PDBs: 2dm9A00, 6wm4H01, 1ohgA02, 8tk7A01
+AEVGV
+[29, 37, 46, 102, 106]
+[0.75, 0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+2dm9A00	A (OK)	E (OK)	V (OK)	G (OK)	V (OK)
+6wm4H01	G (X)	Q (X)	V (OK)	G (OK)	I (X)
+1ohgA02	A (OK)	E (OK)	I (X)	G (OK)	V (OK)
+8tk7A01	A (OK)	E (OK)	V (OK)	E (X)	V (OK)

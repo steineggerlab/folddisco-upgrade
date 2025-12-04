@@ -1,0 +1,9 @@
+>3_30_10_query
+PDBs: 1cseI00, 1hymA00
+SPVGAPLEGPVT
+[7, 9, 12, 13, 19, 28, 35, 37, 38, 40, 41, 42]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1cseI00	S (OK)	P (OK)	V (OK)	G (OK)	A (OK)	P (OK)	L (OK)	E (OK)	G (OK)	P (OK)	V (OK)	T (OK)
+1hymA00	S (OK)	P (OK)	V (OK)	G (OK)	A (OK)	P (OK)	L (OK)	E (OK)	G (OK)	P (OK)	V (OK)	T (OK)

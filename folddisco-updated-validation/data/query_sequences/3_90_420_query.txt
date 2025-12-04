@@ -1,0 +1,9 @@
+>3_90_420_query
+PDBs: 1xdyG00, 2xtsA01
+TPGALLIGVKPLDLRFPCGPLLLAAKEAGALGPRLVPGKW
+[54, 55, 61, 79, 82, 89, 91, 93, 95, 97, 98, 99, 105, 106, 109, 110, 111, 121, 151, 153, 154, 157, 158, 159, 161, 168, 173, 177, 219, 221, 222, 227, 229, 231, 232, 234, 235, 239, 244, 283]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1xdyG00	T (OK)	P (OK)	G (OK)	A (OK)	L (OK)	L (OK)	I (OK)	G (OK)	V (OK)	K (OK)	P (OK)	L (OK)	D (OK)	L (OK)	R (OK)	F (OK)	P (OK)	C (OK)	G (OK)	P (OK)	L (OK)	L (OK)	L (OK)	A (OK)	A (OK)	K (OK)	E (OK)	A (OK)	G (OK)	A (OK)	L (OK)	G (OK)	P (OK)	R (OK)	L (OK)	V (OK)	P (OK)	G (OK)	K (OK)	W (OK)
+2xtsA01	T (OK)	P (OK)	G (OK)	A (OK)	L (OK)	L (OK)	I (OK)	G (OK)	V (OK)	K (OK)	P (OK)	L (OK)	D (OK)	L (OK)	R (OK)	F (OK)	P (OK)	C (OK)	G (OK)	P (OK)	L (OK)	L (OK)	L (OK)	A (OK)	A (OK)	K (OK)	E (OK)	A (OK)	G (OK)	A (OK)	L (OK)	G (OK)	P (OK)	R (OK)	L (OK)	V (OK)	P (OK)	G (OK)	K (OK)	W (OK)

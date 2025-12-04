@@ -1,0 +1,15 @@
+>3_40_366_query
+PDBs: 4qbuA02, 7wvzA02, 2vz8A03, 5my0A03, 3tzyA01, 5czcB01, 4ammA00, 6u5uG02
+ALPGSGEGLVFPL
+[234, 239, 255, 260, 262, 264, 265, 273, 275, 435, 437, 457, 463]
+[1.0, 0.75, 0.875, 1.0, 0.75, 1.0, 0.875, 0.75, 0.75, 0.75, 0.75, 0.875, 0.75]
+
+# Match Table
+4qbuA02	A (OK)	L (OK)	P (OK)	G (OK)	S (OK)	G (OK)	E (OK)	E (X)	F (X)	V (OK)	F (OK)	P (OK)	L (OK)
+7wvzA02	A (OK)	L (OK)	P (OK)	G (OK)	G (X)	G (OK)	E (OK)	G (OK)	L (OK)	T (X)	F (OK)	L (X)	L (OK)
+2vz8A03	A (OK)	L (OK)	P (OK)	G (OK)	S (OK)	G (OK)	E (OK)	G (OK)	L (OK)	V (OK)	F (OK)	P (OK)	L (OK)
+5my0A03	A (OK)	L (OK)	P (OK)	G (OK)	X (X)	G (OK)	E (OK)	G (OK)	L (OK)	V (OK)	F (OK)	P (OK)	L (OK)
+3tzyA01	A (OK)	L (OK)	P (OK)	G (OK)	S (OK)	G (OK)	E (OK)	G (OK)	L (OK)	V (OK)	F (OK)	P (OK)	A (X)
+5czcB01	A (OK)	A (X)	P (OK)	G (OK)	S (OK)	G (OK)	E (OK)	G (OK)	L (OK)	L (X)	W (X)	P (OK)	F (X)
+4ammA00	A (OK)	L (OK)	P (OK)	G (OK)	S (OK)	G (OK)	E (OK)	G (OK)	L (OK)	V (OK)	F (OK)	P (OK)	L (OK)
+6u5uG02	A (OK)	T (X)	L (X)	G (OK)	S (OK)	G (OK)	L (X)	E (X)	D (X)	V (OK)	W (X)	P (OK)	L (OK)

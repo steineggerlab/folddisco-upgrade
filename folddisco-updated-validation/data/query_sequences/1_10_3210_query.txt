@@ -1,0 +1,22 @@
+>1_10_3210_query
+PDBs: 2dqbB00, 2pgsA01, 2hekA01, 1vqrD00, 3memA02, 3rf0A00, 4r8zA00, 3tm8B00, 3hi0A03, 4l1jB00, 5tk8A00, 1vj7B01, 2gz4A00, 1ynbA00, 2o08A00
+HAL
+[152, 194, 195]
+[0.6666666666666666, 0.6666666666666666, 0.6666666666666666]
+
+# Match Table
+2dqbB00	H (OK)	A (OK)	L (OK)
+2pgsA01	H (OK)	C (X)	L (OK)
+2hekA01	H (OK)	G (X)	L (OK)
+1vqrD00	A (X)	I (X)	V (X)
+3memA02	A (X)	A (OK)	L (OK)
+3rf0A00	T (X)	A (OK)	M (X)
+4r8zA00	Y (X)	A (OK)	L (OK)
+3tm8B00	H (OK)	A (OK)	L (OK)
+3hi0A03	H (OK)	C (X)	L (OK)
+4l1jB00	H (OK)	A (OK)	L (OK)
+5tk8A00	H (OK)	A (OK)	L (OK)
+1vj7B01	F (X)	I (X)	Q (X)
+2gz4A00	H (OK)	A (OK)	L (OK)
+1ynbA00	H (OK)	A (OK)	T (X)
+2o08A00	H (OK)	A (OK)	I (X)

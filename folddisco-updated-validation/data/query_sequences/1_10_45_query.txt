@@ -1,0 +1,11 @@
+>1_10_45_query
+PDBs: 2vfrA05, 3js8A04, 5fxdA04, 4bbyA06
+ADPF
+[33, 35, 36, 40]
+[0.75, 1.0, 1.0, 0.75]
+
+# Match Table
+2vfrA05	A (OK)	D (OK)	P (OK)	F (OK)
+3js8A04	A (OK)	D (OK)	P (OK)	F (OK)
+5fxdA04	A (OK)	D (OK)	P (OK)	I (X)
+4bbyA06	Y (X)	D (OK)	P (OK)	F (OK)

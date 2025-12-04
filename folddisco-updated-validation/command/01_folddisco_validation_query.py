@@ -5,11 +5,11 @@ import numpy as np
 import itertools
 import re
 
-DATA_DIR='data/classified_pdbs_3'
+DATA_DIR='data/classified_pdbs'
 DOMAIN_INFO='domain_list.txt'
-QUERY_INFO='data/chain_residue_list3.txt'
+QUERY_INFO='data/chain_residue_list_mismatch.txt'
 INDEX_DIR='index/index_pdbs_folddisco' 
-RESULT_DIR='result3/folddisco_results_raw'
+RESULT_DIR='result/folddisco_results_raw'
 INFO_LIST_FILE='data/folddisco_info_list.txt'
 FOLDDISCO_COMMAND_FILE="command/folddisco_commands.txt"
 WEIRD_FILE='data/weird_pdbs.txt'

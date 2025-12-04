@@ -1,0 +1,15 @@
+>3_90_1310_query
+PDBs: 4ye5A01, 5kshB01, 2y2pA01, 7rd0A01, 3lo7A01, 4r23A01, 1k25D01, 2wafA01
+RGGLA
+[10, 11, 20, 23, 24]
+[0.875, 0.875, 0.875, 0.75, 0.75]
+
+# Match Table
+4ye5A01	R (OK)	G (OK)	G (OK)	L (OK)	A (OK)
+5kshB01	R (OK)	G (OK)	G (OK)	L (OK)	A (OK)
+2y2pA01	I (X)	S (X)	G (OK)	I (X)	A (OK)
+7rd0A01	R (OK)	G (OK)	N (X)	L (OK)	T (X)
+3lo7A01	R (OK)	G (OK)	G (OK)	L (OK)	A (OK)
+4r23A01	R (OK)	G (OK)	G (OK)	L (OK)	A (OK)
+1k25D01	R (OK)	G (OK)	G (OK)	I (X)	A (OK)
+2wafA01	R (OK)	G (OK)	G (OK)	L (OK)	V (X)
