@@ -1,0 +1,10 @@
+[OK] Saved 2129948 significant hits (e<10)
+2: 208 significant / 208 significant self-hits / 213 total self-hits / 100.0% precision / 97.65258215962442% recall /  43254 total queries
+3: 7 significant / 7 significant self-hits / 200 total self-hits / 100.0% precision / 3.5000000000000004% recall /  183340 total queries
+4: 0 significant / 0 significant self-hits / 184 total self-hits / 0.0% precision / 0.0% recall /  267702 total queries
+5: 0 significant / 0 significant self-hits / 154 total self-hits / 0.0% precision / 0.0% recall /  526847 total queries
+6: 0 significant / 0 significant self-hits / 57 total self-hits / 0.0% precision / 0.0% recall /  285200 total queries
+7: 0 significant / 0 significant self-hits / 134 total self-hits / 0.0% precision / 0.0% recall /  825574 total queries
+8: 0 significant / 0 significant self-hits / 127 total self-hits / 0.0% precision / 0.0% recall /  1006083 total queries
+9: 636 significant / 441 significant self-hits / 636 total self-hits / 69.33962264150944% precision / 69.33962264150944% recall /  32957892 total queries
+========================================

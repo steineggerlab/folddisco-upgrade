@@ -1,0 +1,8 @@
+# Statistics per L
+L=3	N_self=225	N_similar=411	N_non=182704	KS(s,n)=0.410	d(s,n)=1.007	KS(s,si)=0.474	d(s,si)=1.052	KS(si,n)=0.072	d(si,n)=-0.044
+L=4	N_self=211	N_similar=290	N_non=267201	KS(s,n)=0.385	d(s,n)=0.945	KS(s,si)=0.208	d(s,si)=0.446	KS(si,n)=0.243	d(si,n)=0.528
+L=5	N_self=237	N_similar=1010	N_non=525600	KS(s,n)=0.267	d(s,n)=0.695	KS(s,si)=0.348	d(s,si)=0.855	KS(si,n)=0.085	d(si,n)=-0.164
+L=6	N_self=139	N_similar=794	N_non=284267	KS(s,n)=0.203	d(s,n)=0.308	KS(s,si)=0.166	d(s,si)=0.268	KS(si,n)=0.153	d(si,n)=0.068
+L=7	N_self=258	N_similar=1139	N_non=824177	KS(s,n)=0.240	d(s,n)=0.493	KS(s,si)=0.266	d(s,si)=0.538	KS(si,n)=0.056	d(si,n)=-0.036
+L=8	N_self=235	N_similar=879	N_non=1004969	KS(s,n)=0.230	d(s,n)=0.494	KS(s,si)=0.200	d(s,si)=0.361	KS(si,n)=0.079	d(si,n)=0.134
+L=9	N_self=3030	N_similar=10067	N_non=32944795	KS(s,n)=0.171	d(s,n)=0.383	KS(s,si)=0.096	d(s,si)=0.280	KS(si,n)=0.135	d(si,n)=0.118

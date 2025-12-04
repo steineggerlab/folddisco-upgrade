@@ -1,0 +1,2 @@
+# Statistics per L
+L=2	N_self=174	N_similar=55	N_non=35247	KS(s,n)=0.875613	p(s,n)=6.892e-157	d(s,n)=3.026	KS(s,si)=0.654441	p(s,si)=1.189e-17	d(s,si)=1.742	KS(si,n)=0.363121	p(si,n)=5.263e-07	d(si,n)=0.893

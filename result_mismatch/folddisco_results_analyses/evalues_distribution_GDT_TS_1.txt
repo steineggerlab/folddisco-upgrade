@@ -1,0 +1,23 @@
+# Statistics per L
+L=2	N_self=419	N_similar=3628	N_non=2958295	KS(s,n)=0.407056	p(s,n)=2.929e-63	d(s,n)=1.147	KS(s,si)=0.406461	p(s,si)=2.208e-56	d(s,si)=1.132	KS(si,n)=0.202638	p(si,n)=6.169e-131	d(si,n)=0.124
+L=3	N_self=1316	N_similar=13104	N_non=11644460	KS(s,n)=0.187913	p(s,n)=3.691e-41	d(s,n)=0.647	KS(s,si)=0.180333	p(s,si)=1.672e-34	d(s,si)=0.645	KS(si,n)=0.083271	p(si,n)=2.107e-79	d(si,n)=0.017
+L=4	N_self=1193	N_similar=9948	N_non=16756508	KS(s,n)=0.158520	p(s,n)=1.184e-26	d(s,n)=0.601	KS(s,si)=0.157847	p(s,si)=1.216e-23	d(s,si)=0.596	KS(si,n)=0.068339	p(si,n)=8.128e-41	d(si,n)=0.036
+L=5	N_self=2117	N_similar=24072	N_non=22157349	KS(s,n)=0.100778	p(s,n)=3.598e-19	d(s,n)=0.386	KS(s,si)=0.104349	p(s,si)=6.654e-19	d(s,si)=0.390	KS(si,n)=0.054768	p(si,n)=3.929e-63	d(si,n)=-0.033
+L=6	N_self=747	N_similar=3812	N_non=7918604	KS(s,n)=0.155221	p(s,n)=3.491e-16	d(s,n)=0.389	KS(s,si)=0.085721	p(s,si)=1.913e-04	d(s,si)=0.381	KS(si,n)=0.125846	p(si,n)=4.691e-53	d(si,n)=0.047
+L=7	N_self=1687	N_similar=12104	N_non=17714293	KS(s,n)=0.092893	p(s,n)=4.047e-13	d(s,n)=0.356	KS(s,si)=0.061078	p(s,si)=3.028e-05	d(s,si)=0.335	KS(si,n)=0.068036	p(si,n)=3.971e-49	d(si,n)=0.100
+L=8	N_self=963	N_similar=7300	N_non=13546125	KS(s,n)=0.113754	p(s,n)=2.603e-11	d(s,n)=0.374	KS(s,si)=0.111764	p(s,si)=1.032e-09	d(s,si)=0.359	KS(si,n)=0.042480	p(si,n)=7.058e-12	d(si,n)=0.071
+L=9	N_self=624	N_similar=3671	N_non=8825993	KS(s,n)=0.129608	p(s,n)=1.342e-09	d(s,n)=0.355	KS(s,si)=0.092132	p(s,si)=2.156e-04	d(s,si)=0.347	KS(si,n)=0.051378	p(si,n)=7.402e-09	d(si,n)=0.046
+L=10	N_self=1106	N_similar=5949	N_non=13318605	KS(s,n)=0.067525	p(s,n)=7.900e-05	d(s,n)=0.261	KS(s,si)=0.057493	p(s,si)=4.012e-03	d(s,si)=0.241	KS(si,n)=0.030877	p(si,n)=2.330e-05	d(si,n)=0.075
+L=11	N_self=1410	N_similar=10174	N_non=15968102	KS(s,n)=0.054280	p(s,n)=4.733e-04	d(s,n)=0.222	KS(s,si)=0.032738	p(s,si)=1.377e-01	d(s,si)=0.202	KS(si,n)=0.032265	p(si,n)=1.247e-09	d(si,n)=0.067
+L=12	N_self=726	N_similar=4088	N_non=10738143	KS(s,n)=0.092039	p(s,n)=8.393e-06	d(s,n)=0.308	KS(s,si)=0.092771	p(s,si)=4.527e-05	d(s,si)=0.307	KS(si,n)=0.140012	p(si,n)=2.425e-70	d(si,n)=0.004
+L=13	N_self=464	N_similar=2514	N_non=6469246	KS(s,n)=0.061888	p(s,n)=5.481e-02	d(s,n)=0.242	KS(s,si)=0.082257	p(s,si)=9.336e-03	d(s,si)=0.238	KS(si,n)=0.081689	p(si,n)=4.910e-15	d(si,n)=0.017
+L=14	N_self=395	N_similar=2177	N_non=5388607	KS(s,n)=0.072699	p(s,n)=2.921e-02	d(s,n)=0.179	KS(s,si)=0.067359	p(s,si)=9.139e-02	d(s,si)=0.184	KS(si,n)=0.093550	p(si,n)=5.039e-17	d(si,n)=-0.020
+L=15	N_self=209	N_similar=1040	N_non=3092836	KS(s,n)=0.075866	p(s,n)=1.713e-01	d(s,n)=0.298	KS(s,si)=0.145248	p(s,si)=1.134e-03	d(s,si)=0.304	KS(si,n)=0.123367	p(si,n)=2.972e-14	d(si,n)=-0.034
+L=16	N_self=215	N_similar=876	N_non=3406979	KS(s,n)=0.156728	p(s,n)=4.442e-05	d(s,n)=0.337	KS(s,si)=0.134698	p(s,si)=3.380e-03	d(s,si)=0.319	KS(si,n)=0.087172	p(si,n)=3.058e-06	d(si,n)=0.075
+L=17	N_self=57	N_similar=404	N_non=1245932	KS(s,n)=0.161907	p(s,n)=8.984e-02	d(s,n)=0.497	KS(s,si)=0.190160	p(s,si)=4.632e-02	d(s,si)=0.500	KS(si,n)=0.127389	p(si,n)=3.563e-06	d(si,n)=-0.023
+L=18	N_self=98	N_similar=483	N_non=1289862	KS(s,n)=0.129963	p(s,n)=6.658e-02	d(s,n)=0.168	KS(s,si)=0.076013	p(s,si)=7.015e-01	d(s,si)=0.160	KS(si,n)=0.087762	p(si,n)=1.097e-03	d(si,n)=0.026
+L=19	N_self=83	N_similar=341	N_non=1332103	KS(s,n)=0.192293	p(s,n)=3.664e-03	d(s,n)=0.280	KS(s,si)=0.255026	p(s,si)=2.571e-04	d(s,si)=0.281	KS(si,n)=0.145133	p(si,n)=9.875e-07	d(si,n)=-0.001
+L=20	N_self=52	N_similar=117	N_non=1128080	KS(s,n)=0.174979	p(s,n)=7.304e-02	d(s,n)=0.272	KS(s,si)=0.179487	p(s,si)=1.742e-01	d(s,si)=0.341	KS(si,n)=0.076887	p(si,n)=4.705e-01	d(si,n)=-0.017
+L=21	N_self=53	N_similar=78	N_non=664521	KS(s,n)=0.183522	p(s,n)=4.918e-02	d(s,n)=0.322	KS(s,si)=0.277939	p(s,si)=1.181e-02	d(s,si)=0.326	KS(si,n)=0.259704	p(si,n)=3.957e-05	d(si,n)=-0.007
+L=22	N_self=57	N_similar=164	N_non=782209	KS(s,n)=0.331497	p(s,n)=4.392e-06	d(s,n)=0.469	KS(s,si)=0.347240	p(s,si)=4.755e-05	d(s,si)=0.460	KS(si,n)=0.129192	p(si,n)=7.590e-03	d(si,n)=0.022
+L=25	N_self=55	N_similar=120	N_non=420550	KS(s,n)=0.378565	p(s,n)=1.361e-07	d(s,n)=0.737	KS(s,si)=0.358333	p(s,si)=7.921e-05	d(s,si)=0.814	KS(si,n)=0.175944	p(si,n)=1.015e-03	d(si,n)=-0.202
