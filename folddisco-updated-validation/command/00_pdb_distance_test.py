@@ -1,10 +1,12 @@
+#Python script to test Cα–Cα distance calculation between residues in a PDB file. It reads a specified PDB file, extracts the specified residues, and calculates the distance between their Cα atoms.
+
 from Bio.PDB import PDBParser
 import numpy as np
 import itertools
 import os
 
 PDB_PATH = 'data/classified_pdbs/pdbs_'
-RESIDUE_PATH = 'data/chain_residue_list3.txt'
+RESIDUE_PATH = 'data/chain_residue_list.txt'
 	
 # ===== 입력 =====
 PDB_PATH = 'data/classified_pdbs/pdbs_1_10_101/1eakA01.pdb'

@@ -1,121 +1,76 @@
-#Python script to analyze Folddisco results and make score distribution
+#Python script to analyze FoldDisco results, extract max node count and actual PDB length, and summarize results in a text file.
 
-import numpy as np
-import matplotlib.pyplot as plt
 import os
-import math
 
-RESULT_DIR = "result/folddisco_results_raw"
-PNG_DIR = "result/analyses_plot"
-STATS_DIR = "result/folddisco_results_stats"
-NOKEY_FILE = "result/folddisco_results_stats/folddisco_nokey.txt"
-RESULT_FILE = "result/folddisco_results_stats/folddisco_result_summary.txt"
-header = "filename\tlength\tmax_node_count\tidf_scores\trmsd_scores\ttm_scores\n"
+RESULT_DIR = "result_expanded5/folddisco_results_raw"
+STATS_DIR = "result_expanded5/folddisco_results_stats"
+NOKEY_FILE = os.path.join(STATS_DIR, "folddisco_nokey.txt")
+RESULT_FILE = os.path.join(STATS_DIR, "folddisco_result_summary.txt")
+header = "filename\tlength\tmax_node_count\n"
 
-os.makedirs(PNG_DIR, exist_ok=True)
 os.makedirs(STATS_DIR, exist_ok=True)
 
-def safe_float(x):
-    try:
-        return float(x)
-    except ValueError:
-        return None
-
-def _lawless416(x, lam):
-    ex = np.exp(-lam * x)
-    esum = ex.sum()
-    xesum = (x*ex).sum()
-    xxesum = (x**2*ex).sum()
-    f  = 1/lam - x.mean() + xesum/esum
-    df = (xesum/esum)**2 - xxesum/esum - 1/(lam*lam)
-    return f, df
-
-def _newton_with_bisect(f_df, lam0=0.2, tol=1e-5):
-    lam = max(lam0,1e-6)
-    for _ in range(100):
-        f, df = f_df(lam)
-        if abs(f) < tol: return lam
-        lam = max(lam - f/df, 1e-6)
-    # fallback
-    L,R = 1e-6,100
-    for _ in range(200):
-        M = 0.5*(L+R)
-        fM,_ = f_df(M)
-        if abs(fM)<tol: return M
-        if fM>0: L=M
-        else: R=M
-    return 0.5*(L+R)
-
-def evd_mle_full(scores):
-    x = np.asarray(scores,float)
-    lam = _newton_with_bisect(lambda L:_lawless416(x,L))
-    mu  = -math.log(np.mean(np.exp(-lam*x)))/lam
-    return mu, lam
-
-def evd_sf(x, mu, lam):
-    y = lam*(x-mu)
-    t = np.exp(-y)
-    sf = 1 - np.exp(-t)
-    sf[y>20] = np.exp(-y[y>20])   # 큰 y에서 안정화
-    return sf
-
-def e_values(scores, mu, lam, M=None):
-    p = evd_sf(np.asarray(scores,float), mu, lam)
-    if M is None: M = len(scores)
-    return M * p
-
-def evd_pdf(x, mu, lam):
-    z = lam*(x-mu)
-    return lam * np.exp(-z - np.exp(-z))
-
-def pdb_len(pdb_id):
+def get_actual_pdb_length(pdb_id):
+    """PDB 파일에서 실제 CA 원자 개수(잔기 수)를 세는 함수"""
+    pdb_id = pdb_id.replace("output_", "").split(".txt")[0]
+    pdb_path = f"data/index_pdbs/{pdb_id}.pdb"
+    
+    if not os.path.exists(pdb_path):
+        return 0
+    
     length = 0
-    pdb_id = pdb_id.replace("output_", "")
-    pdb_file = f"data/index_pdbs/{pdb_id}.pdb"
-
-    if os.path.exists(pdb_file):
-        with open(pdb_file, 'r') as file:
-            lines = file.readlines()
-            length = len(lines)
-    else:
-        print(f"PDB file {pdb_file} does not exist.")
+    with open(pdb_path, 'r') as f:
+        for line in f:
+            # ATOM 레코드이면서 탄소 알파(CA)인 경우만 카운트 (일반적인 단백질 길이 측정 방식)
+            if line.startswith("ATOM") and line[12:16].strip() == "CA":
+                length += 1
     return length
 
 def main():
-    idf_score_dict = {}
-    node_count_dict = {}
-    print("Starting Folddisco result to distribution analysis...")
+    print("Starting analysis...")
+    
+    # 헤더 작성
+    with open(RESULT_FILE, 'w') as res_file:
+        res_file.write(header)
+
     for root, _, files in os.walk(RESULT_DIR):
         for filename in files:
-            if filename.endswith(".txt"):
-                file_path = os.path.join(root, filename)
-                with open(file_path, 'r') as file:
-                    if sum(1 for _ in file) < 2:
-                        with open(NOKEY_FILE, 'a') as nokey_file:
-                            nokey_file.write(f"{filename}\n")
-                        continue
-                    else:
-                        idf_score_dict[filename] = []
-                        node_count_dict[filename] = []
-                    file.seek(0)  # Reset file pointer to the beginning
-                    for line in file:
-                        if line.startswith("id"):
-                            continue
-                        else:
-                            cols = line.strip().split("\t")
-                            idf_score_dict[filename].append(cols[2])
-                            node_count_dict[filename].append(cols[1])
-    for key, value in idf_score_dict.items():
-        length = pdb_len(key.replace(".txt", ""))
-        scores = [float(score) for score in value if score.replace('.', '', 1).isdigit()]
-        if scores:
-            node_count = node_count_dict[key]
-            with open(RESULT_FILE, 'a') as res_file:
-                res_file.write(f"{key}\t{length}\t{max(node_count)}\n")
+            if not filename.endswith(".txt"):
+                continue
+                
+            file_path = os.path.join(root, filename)
             
-        else:
-            with open(NOKEY_FILE, 'a') as nokey_file:
-                nokey_file.write(f"{key}\n")
+            with open(file_path, 'r') as f:
+                lines = f.readlines()
+                
+            # 데이터가 없는 경우 (헤더 제외 1줄 이하)
+            if len(lines) <= 1:
+                with open(NOKEY_FILE, 'a') as n_file:
+                    n_file.write(f"{filename}\n")
+                continue
+
+            max_nc = -1
+            has_valid_score = False
+
+            for line in lines[1:]: # 헤더 건너뜀
+                cols = line.strip().split("\t")
+                if len(cols) < 3: continue
+                
+                try:
+                    nc = int(cols[1]) # node_count를 숫자로 변환
+                    if nc > max_nc:
+                        max_nc = nc
+                    has_valid_score = True
+                except ValueError:
+                    continue
+
+            if has_valid_score:
+                length = get_actual_pdb_length(filename)
+                with open(RESULT_FILE, 'a') as res_file:
+                    res_file.write(f"{filename}\t{length}\t{max_nc}\n")
+            else:
+                with open(NOKEY_FILE, 'a') as n_file:
+                    n_file.write(f"{filename}\n")
 
 if __name__ == "__main__":
     main()

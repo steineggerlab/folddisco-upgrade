@@ -1,1 +1,1 @@
-folddisco query -i index/index_pdbs_folddisco -q data/folddisco_info_list.txt -t 128 -v --sort-by idf --header
+folddisco query -i index/index_pdbs_folddisco -q ../data/folddisco_info_list_expanded5.txt -t 128 -v --sort-by idf --header

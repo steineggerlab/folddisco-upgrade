@@ -1,17 +1,17 @@
+#Python script to classify FoldDisco results by query length and filter out files with insufficient self/similar matches.
+
 import os
 import glob
 
-DATA_DIR = "result/folddisco_results_raw"
-SUMMARY_FILE = "result/folddisco_results_stats/folddisco_result_summary_final.txt"
-RESULT_DIR = "result/folddisco_results_analyses"
+DATA_DIR = "result_expanded4/folddisco_results_raw"
+SUMMARY_FILE = "result_expanded4/folddisco_results_stats/folddisco_result_summary_final.txt"
+RESULT_DIR = "result_expanded4/folddisco_results_analyses"
 PDB_FILE = "data/domain-list-index.txt"
 
 LOG = f"summary_hits_num.txt"
 LOG_FILE = os.path.join(RESULT_DIR, LOG)
 header = (
-    "source\tid\tnode_count\tidf_score_per_match\trmsd\tmatching_residues\tkey\t"
-    "tm_score\ttm_score_strict\tgdt_ts\tgdt_ha\tgdt_strict\trmsd\tchamfer_distance\t"
-    "hausdorff_distance\tquery_residues"
+    "source\tid\tnode_count\tidf_score_per_match\trmsd\tevalue_lin\tevalue_frac\tevalue_new\tevalue_new_sat\tmatching_residues\tquery_residues"
 )
 
 os.makedirs(RESULT_DIR, exist_ok=True)
@@ -107,7 +107,11 @@ with open(PDB_FILE, 'r') as data:
 
 
 delete_file = []
-files = [os.path.join(RESULT_DIR, f) for f in os.listdir(RESULT_DIR)]
+files = [
+    os.path.join(RESULT_DIR, f) 
+    for f in os.listdir(RESULT_DIR) 
+    if f.startswith("length_") and f.endswith(".txt")
+]
 
 for file_path in files:
     rows = []
@@ -127,7 +131,7 @@ for file_path in files:
         key = cols[0]
         target = cols[1]
 
-        q = key.replace("output_", "").replace(".txt", "")
+        q = key.replace("output_", "").split(".txt")[0]
         t = os.path.basename(target).replace(".pdb", "")
 
         if q == t:

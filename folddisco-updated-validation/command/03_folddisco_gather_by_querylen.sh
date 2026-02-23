@@ -1,10 +1,12 @@
+#Script to gather FoldDisco results by query length and combine them into a single file.
+
 #!/bin/bash
 #SBATCH --job-name=folddisco_gather_by_querylen
 #SBATCH --ntasks=1
 #SBATCH --time=01:00:00
 #SBATCH --output=gather_by_querylen_%j.log
 
-TARGET_DIR='result/folddisco_results_analyses'
+TARGET_DIR='result_expanded4/folddisco_results_analyses'
 FINAL_FILE="$TARGET_DIR/total_combined.txt"
 
 # Pick first file to get header (length_* format)

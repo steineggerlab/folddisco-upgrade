@@ -1,23 +1,29 @@
+#Python script to validate the query information for Folddisco and execute the Folddisco command.
+
 import os, subprocess
 from collections import defaultdict
-from Bio.PDB import PDBParser
-import numpy as np
-import itertools
-import re
+#from Bio.PDB import PDBParser
+#import numpy as np
+#import itertools
+#import re
 
-DATA_DIR='data/classified_pdbs'
+if os.path.exists("folddisco"): 
+    os.chdir("folddisco")
+
+DATA_DIR='../data/toy_pdbs'
 DOMAIN_INFO='domain_list.txt'
-QUERY_INFO='data/chain_residue_list_mismatch.txt'
+QUERY_INFO='../data/chain_residue_list.txt'
 INDEX_DIR='index/index_pdbs_folddisco' 
-RESULT_DIR='result/folddisco_results_raw'
-INFO_LIST_FILE='data/folddisco_info_list.txt'
-FOLDDISCO_COMMAND_FILE="command/folddisco_commands.txt"
-WEIRD_FILE='data/weird_pdbs.txt'
+RESULT_DIR='../result_expanded/folddisco_results_raw'
+INFO_LIST_FILE='../data/folddisco_info_list_expanded5.txt'
+FOLDDISCO_COMMAND_FILE="../command/folddisco_commands.txt"
+WEIRD_FILE='../data/weird_pdbs_expanded.txt'
 FOLDDISCO="folddisco"
 BIGNUM=999999999999
 DISTANCE_CUTOFF=20.0
 
 os.makedirs(RESULT_DIR, exist_ok=True)
+'''
 parser = PDBParser(QUIET=True)
 
 def ca_distance(res1, res2):
@@ -154,7 +160,7 @@ for file in os.listdir(DATA_DIR):
 with open(WEIRD_FILE, 'w') as wf:
     for pdb_id, reason in weird_pdbs.items():
         wf.write(f"{reason}\t{pdb_id}\n")
-
+'''
 
 command = (
     f"{FOLDDISCO} query -i {INDEX_DIR} "
@@ -166,3 +172,4 @@ with open(FOLDDISCO_COMMAND_FILE, 'w') as f:
 print("Executing folddisco commands.")
 os.system(f"bash {FOLDDISCO_COMMAND_FILE}")
 print("Folddisco finished.")
+
