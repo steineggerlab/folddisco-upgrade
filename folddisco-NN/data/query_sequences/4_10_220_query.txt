@@ -1,0 +1,9 @@
+>4_10_220_query
+PDBs: 1ijdA00, 7ddqb01
+KIWPAHL
+[3, 4, 5, 10, 25, 29, 33]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1ijdA00	K (OK)	I (OK)	W (OK)	P (OK)	A (OK)	H (OK)	L (OK)
+7ddqb01	K (OK)	I (OK)	W (OK)	P (OK)	A (OK)	H (OK)	L (OK)

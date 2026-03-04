@@ -1,0 +1,9 @@
+>1_10_3520_query
+PDBs: 3kv0A01, 4k84A00
+LFSDQVELLLRLLSSYLHVAPRFLELN
+[30, 42, 43, 48, 72, 75, 78, 79, 101, 103, 105, 107, 114, 120, 133, 134, 138, 142, 146, 153, 158, 160, 163, 179, 181, 183, 191]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+3kv0A01	L (OK)	F (OK)	S (OK)	D (OK)	Q (OK)	V (OK)	E (OK)	L (OK)	L (OK)	L (OK)	R (OK)	L (OK)	L (OK)	S (OK)	S (OK)	Y (OK)	L (OK)	H (OK)	V (OK)	A (OK)	P (OK)	R (OK)	F (OK)	L (OK)	E (OK)	L (OK)	N (OK)
+4k84A00	L (OK)	F (OK)	S (OK)	D (OK)	Q (OK)	V (OK)	E (OK)	L (OK)	L (OK)	L (OK)	R (OK)	L (OK)	L (OK)	S (OK)	S (OK)	Y (OK)	L (OK)	H (OK)	V (OK)	A (OK)	P (OK)	R (OK)	F (OK)	L (OK)	E (OK)	L (OK)	N (OK)

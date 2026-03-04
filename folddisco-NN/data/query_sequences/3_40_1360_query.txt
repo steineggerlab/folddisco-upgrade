@@ -1,0 +1,11 @@
+>3_40_1360_query
+PDBs: 2au3A03, 2fcjB00, 1vddA03, 2q2eA02
+VEGDLGVDDG
+[51, 52, 53, 56, 96, 103, 106, 111, 113, 116]
+[0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 1.0, 0.75, 0.75, 0.75]
+
+# Match Table
+2au3A03	V (OK)	E (OK)	G (OK)	D (OK)	L (OK)	T (X)	V (OK)	D (OK)	D (OK)	G (OK)
+2fcjB00	V (OK)	E (OK)	G (OK)	D (OK)	L (OK)	G (OK)	V (OK)	D (OK)	D (OK)	G (OK)
+1vddA03	V (OK)	E (OK)	E (X)	D (OK)	L (OK)	G (OK)	V (OK)	G (X)	T (X)	G (OK)
+2q2eA02	E (X)	T (X)	G (OK)	Y (X)	R (X)	G (OK)	V (OK)	D (OK)	D (OK)	S (X)

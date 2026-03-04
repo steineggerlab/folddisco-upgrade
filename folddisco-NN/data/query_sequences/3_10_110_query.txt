@@ -1,0 +1,19 @@
+>3_10_110_query
+PDBs: 2fo3A00, 3cegA00, 1zuoB00, 2z6oA00, 3obqA00, 1yf9A00, 4onlA00, 2nvuC01, 4y1lC00, 2yz0A00, 3zqsA01, 6u1oA01
+YPGL
+[139, 140, 170, 174]
+[0.9166666666666666, 1.0, 0.6666666666666666, 0.6666666666666666]
+
+# Match Table
+2fo3A00	Y (OK)	P (OK)	G (OK)	L (OK)
+3cegA00	Y (OK)	P (OK)	G (OK)	L (OK)
+1zuoB00	F (X)	P (OK)	G (OK)	M (X)
+2z6oA00	Y (OK)	P (OK)	G (OK)	L (OK)
+3obqA00	Y (OK)	P (OK)	G (OK)	L (OK)
+1yf9A00	Y (OK)	P (OK)	G (OK)	L (OK)
+4onlA00	Y (OK)	P (OK)	G (OK)	A (X)
+2nvuC01	Y (OK)	P (OK)	G (OK)	L (OK)
+4y1lC00	Y (OK)	P (OK)	V (X)	L (OK)
+2yz0A00	Y (OK)	P (OK)	L (X)	F (X)
+3zqsA01	Y (OK)	P (OK)	V (X)	F (X)
+6u1oA01	Y (OK)	P (OK)	Y (X)	L (OK)

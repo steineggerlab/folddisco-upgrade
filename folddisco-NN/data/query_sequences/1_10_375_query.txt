@@ -1,0 +1,12 @@
+>1_10_375_query
+PDBs: 2xgvA00, 6omtA01, 1em9B00, 1qrjA01, 2y4zA00
+SPDLL
+[33, 34, 53, 57, 58]
+[0.8, 0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+2xgvA00	S (OK)	P (OK)	E (X)	L (OK)	L (OK)
+6omtA01	S (OK)	P (OK)	D (OK)	M (X)	L (OK)
+1em9B00	S (OK)	P (OK)	D (OK)	L (OK)	M (X)
+1qrjA01	S (OK)	P (OK)	D (OK)	L (OK)	L (OK)
+2y4zA00	P (X)	G (X)	D (OK)	L (OK)	L (OK)

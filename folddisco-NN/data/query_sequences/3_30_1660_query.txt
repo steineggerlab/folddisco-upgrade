@@ -1,0 +1,9 @@
+>3_30_1660_query
+PDBs: 4b2jA00, 6r1eA00
+GTSAARATLEVIQFL
+[12, 13, 14, 21, 25, 28, 29, 32, 33, 40, 41, 48, 57, 64, 66]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+4b2jA00	G (OK)	T (OK)	S (OK)	A (OK)	A (OK)	R (OK)	A (OK)	T (OK)	L (OK)	E (OK)	V (OK)	I (OK)	Q (OK)	F (OK)	L (OK)
+6r1eA00	G (OK)	T (OK)	S (OK)	A (OK)	A (OK)	R (OK)	A (OK)	T (OK)	L (OK)	E (OK)	V (OK)	I (OK)	Q (OK)	F (OK)	L (OK)

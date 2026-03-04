@@ -1,0 +1,22 @@
+>2_30_42_query
+PDBs: 1ky9B04, 3otpC03, 2ytwA00, 2pa1A00, 4q2pA00, 1k32A04, 7w6yA02, 5h3jA02, 3id1A00, 1i16A00, 1x45A01, 3r0hG01, 1wifA01, 3soeA00, 1p1eA00
+AGDIG
+[73, 86, 87, 89, 94]
+[0.8, 0.7333333333333333, 0.8666666666666667, 0.6666666666666666, 0.7333333333333333]
+
+# Match Table
+1ky9B04	A (OK)	G (OK)	D (OK)	I (OK)	Q (X)
+3otpC03	A (OK)	G (OK)	D (OK)	I (OK)	G (OK)
+2ytwA00	A (OK)	N (X)	D (OK)	I (OK)	G (OK)
+2pa1A00	A (OK)	G (OK)	D (OK)	I (OK)	G (OK)
+4q2pA00	A (OK)	D (X)	D (OK)	L (X)	G (OK)
+1k32A04	I (X)	G (OK)	Y (X)	I (OK)	G (OK)
+7w6yA02	A (OK)	G (OK)	D (OK)	V (X)	G (OK)
+5h3jA02	A (OK)	S (X)	D (OK)	I (OK)	D (X)
+3id1A00	A (OK)	G (OK)	T (X)	L (X)	G (OK)
+1i16A00	A (OK)	G (OK)	D (OK)	I (OK)	G (OK)
+1x45A01	A (OK)	G (OK)	D (OK)	I (OK)	G (OK)
+3r0hG01	Q (X)	F (X)	D (OK)	I (OK)	G (OK)
+1wifA01	A (OK)	G (OK)	D (OK)	L (X)	H (X)
+3soeA00	C (X)	G (OK)	D (OK)	I (OK)	H (X)
+1p1eA00	A (OK)	G (OK)	D (OK)	V (X)	G (OK)

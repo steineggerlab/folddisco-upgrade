@@ -1,0 +1,9 @@
+>4_10_830_query
+PDBs: 2vqeN00, 6az1S00
+KCVCRCRCREAR
+[13, 22, 23, 25, 33, 40, 41, 43, 45, 46, 48, 57]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2vqeN00	K (OK)	C (OK)	V (OK)	C (OK)	R (OK)	C (OK)	R (OK)	C (OK)	R (OK)	E (OK)	A (OK)	R (OK)
+6az1S00	K (OK)	C (OK)	V (OK)	C (OK)	R (OK)	C (OK)	R (OK)	C (OK)	R (OK)	E (OK)	A (OK)	R (OK)

@@ -1,0 +1,15 @@
+>3_40_470_query
+PDBs: 4wpkA00, 6lyeA01, 4irbA00, 2d3yA00, 3uo7A00, 2l3fA00, 3ikbA00, 5h99A00
+PGSAHS
+[65, 98, 152, 245, 282, 291]
+[0.75, 1.0, 0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+4wpkA00	P (OK)	G (OK)	S (OK)	A (OK)	H (OK)	S (OK)
+6lyeA01	P (OK)	G (OK)	S (OK)	A (OK)	H (OK)	S (OK)
+4irbA00	P (OK)	G (OK)	S (OK)	G (X)	H (OK)	A (X)
+2d3yA00	P (OK)	G (OK)	S (OK)	A (OK)	H (OK)	S (OK)
+3uo7A00	T (X)	G (OK)	P (X)	I (X)	S (X)	S (OK)
+2l3fA00	G (X)	G (OK)	P (X)	A (OK)	S (X)	S (OK)
+3ikbA00	P (OK)	G (OK)	S (OK)	A (OK)	H (OK)	S (OK)
+5h99A00	P (OK)	G (OK)	S (OK)	A (OK)	H (OK)	L (X)

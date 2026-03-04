@@ -1,0 +1,15 @@
+>3_60_40_query
+PDBs: 2irmA00, 2pnqA00, 2i0oA00, 3d8kD00, 3ke6B01, 3w42A00, 3f79E00, 3rnrB00
+DGTRLGDGT
+[101, 102, 239, 309, 312, 370, 432, 433, 517]
+[0.875, 0.75, 0.75, 0.75, 0.875, 0.875, 0.75, 1.0, 0.75]
+
+# Match Table
+2irmA00	S (X)	G (OK)	S (X)	R (OK)	L (OK)	G (OK)	S (X)	G (OK)	T (OK)
+2pnqA00	D (OK)	G (OK)	T (OK)	R (OK)	L (OK)	G (OK)	D (OK)	G (OK)	T (OK)
+2i0oA00	D (OK)	G (OK)	T (OK)	R (OK)	V (X)	G (OK)	D (OK)	G (OK)	T (OK)
+3d8kD00	D (OK)	G (OK)	S (X)	R (OK)	L (OK)	G (OK)	A (X)	G (OK)	S (X)
+3ke6B01	D (OK)	V (X)	T (OK)	P (X)	L (OK)	G (OK)	D (OK)	G (OK)	T (OK)
+3w42A00	D (OK)	G (OK)	T (OK)	R (OK)	L (OK)	S (X)	D (OK)	G (OK)	T (OK)
+3f79E00	D (OK)	V (X)	T (OK)	L (X)	L (OK)	G (OK)	D (OK)	G (OK)	A (X)
+3rnrB00	D (OK)	G (OK)	T (OK)	R (OK)	L (OK)	G (OK)	D (OK)	G (OK)	T (OK)

@@ -1,0 +1,21 @@
+>3_40_720_query
+PDBs: 1hdhA01, 1p49A01, 2w5qA02, 5u9zA01, 5eghB01, 5tj3A01, 3szyA01, 4kavA00, 1o98A02, 3kd8A01, 4lrdA01, 1ajaB00, 3b5qA00, 2d1gA02
+DPD
+[441, 547, 594]
+[0.9285714285714286, 0.7142857142857143, 0.7857142857142857]
+
+# Match Table
+1hdhA01	D (OK)	P (OK)	D (OK)
+1p49A01	D (OK)	P (OK)	D (OK)
+2w5qA02	D (OK)	G (X)	D (OK)
+5u9zA01	D (OK)	D (X)	D (OK)
+5eghB01	D (OK)	I (X)	D (OK)
+5tj3A01	D (OK)	P (OK)	D (OK)
+3szyA01	D (OK)	P (OK)	D (OK)
+4kavA00	D (OK)	P (OK)	H (X)
+1o98A02	D (OK)	P (OK)	D (OK)
+3kd8A01	D (OK)	P (OK)	N (X)
+4lrdA01	D (OK)	P (OK)	D (OK)
+1ajaB00	D (OK)	R (X)	D (OK)
+3b5qA00	S (X)	P (OK)	D (OK)
+2d1gA02	D (OK)	P (OK)	S (X)

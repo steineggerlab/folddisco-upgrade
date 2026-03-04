@@ -1,0 +1,9 @@
+>1_20_1320_query
+PDBs: 3zd7A03, 4i1sA01
+DFKMFGTQYEQWKHLKYNALIRDALKFFELFLPE
+[1, 3, 4, 11, 36, 37, 38, 39, 41, 42, 43, 44, 50, 67, 68, 70, 71, 72, 74, 75, 77, 82, 85, 86, 90, 91, 93, 102, 108, 113, 117, 124, 131, 134]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+3zd7A03	D (OK)	F (OK)	K (OK)	M (OK)	F (OK)	G (OK)	T (OK)	Q (OK)	Y (OK)	E (OK)	Q (OK)	W (OK)	K (OK)	H (OK)	L (OK)	K (OK)	Y (OK)	N (OK)	A (OK)	L (OK)	I (OK)	R (OK)	D (OK)	A (OK)	L (OK)	K (OK)	F (OK)	F (OK)	E (OK)	L (OK)	F (OK)	L (OK)	P (OK)	E (OK)
+4i1sA01	D (OK)	F (OK)	K (OK)	M (OK)	F (OK)	G (OK)	T (OK)	Q (OK)	Y (OK)	E (OK)	Q (OK)	W (OK)	K (OK)	H (OK)	L (OK)	K (OK)	Y (OK)	N (OK)	A (OK)	L (OK)	I (OK)	R (OK)	D (OK)	A (OK)	L (OK)	K (OK)	F (OK)	F (OK)	E (OK)	L (OK)	F (OK)	L (OK)	P (OK)	E (OK)

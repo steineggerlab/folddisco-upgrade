@@ -1,0 +1,12 @@
+>3_90_940_query
+PDBs: 1qklA00, 2pmzK00, 2a6hE00, 5uagE00, 6gmhE02
+VRAQ
+[64, 68, 69, 71]
+[0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+1qklA00	V (OK)	R (OK)	A (OK)	Q (OK)
+2pmzK00	V (OK)	R (OK)	A (OK)	Q (OK)
+2a6hE00	V (OK)	R (OK)	A (OK)	Q (OK)
+5uagE00	V (OK)	R (OK)	A (OK)	Q (OK)
+6gmhE02	L (X)	Y (X)	K (X)	R (X)

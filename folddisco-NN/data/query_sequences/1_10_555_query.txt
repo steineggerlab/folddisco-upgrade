@@ -1,0 +1,9 @@
+>1_10_555_query
+PDBs: 1pbwB00, 1tx4A00
+LPLVLREQVDHAKLLPPYPLLSSNLFPLAL
+[10, 24, 27, 31, 39, 46, 56, 59, 68, 69, 77, 80, 84, 87, 90, 91, 93, 100, 130, 137, 140, 148, 151, 154, 161, 165, 167, 169, 176, 192]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1pbwB00	L (OK)	P (OK)	L (OK)	V (OK)	L (OK)	R (OK)	E (OK)	Q (OK)	V (OK)	D (OK)	H (OK)	A (OK)	K (OK)	L (OK)	L (OK)	P (OK)	P (OK)	Y (OK)	P (OK)	L (OK)	L (OK)	S (OK)	S (OK)	N (OK)	L (OK)	F (OK)	P (OK)	L (OK)	A (OK)	L (OK)
+1tx4A00	L (OK)	P (OK)	L (OK)	V (OK)	L (OK)	R (OK)	E (OK)	Q (OK)	V (OK)	D (OK)	H (OK)	A (OK)	K (OK)	L (OK)	L (OK)	P (OK)	P (OK)	Y (OK)	P (OK)	L (OK)	L (OK)	S (OK)	S (OK)	N (OK)	L (OK)	F (OK)	P (OK)	L (OK)	A (OK)	L (OK)
