@@ -1,0 +1,19 @@
+>3_60_10_query
+PDBs: 2j63A00, 7n3yC01, 1vybA00, 2ei9A00, 4l1zA00, 6ibdA01, 3mprD00, 6ca4B00, 3i5vC00, 1sr4B00, 3ngqA00, 2a40B00
+DQEGDNDSDHP
+[86, 91, 92, 299, 300, 302, 415, 468, 469, 470, 472]
+[0.9166666666666666, 0.75, 0.75, 0.8333333333333334, 0.9166666666666666, 1.0, 1.0, 0.9166666666666666, 0.9166666666666666, 1.0, 0.6666666666666666]
+
+# Match Table
+2j63A00	D (OK)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+7n3yC01	D (OK)	Q (OK)	Q (X)	G (OK)	N (X)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+1vybA00	S (X)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	A (X)
+2ei9A00	D (OK)	Q (OK)	E (OK)	A (X)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	L (X)
+4l1zA00	D (OK)	A (X)	V (X)	G (OK)	D (OK)	N (OK)	D (OK)	T (X)	E (X)	H (OK)	P (OK)
+6ibdA01	D (OK)	G (X)	T (X)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+3mprD00	D (OK)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+6ca4B00	D (OK)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	G (X)
+3i5vC00	D (OK)	N (X)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+1sr4B00	D (OK)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)
+3ngqA00	D (OK)	Q (OK)	E (OK)	A (X)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	S (X)
+2a40B00	D (OK)	Q (OK)	E (OK)	G (OK)	D (OK)	N (OK)	D (OK)	S (OK)	D (OK)	H (OK)	P (OK)

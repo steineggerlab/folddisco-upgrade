@@ -1,0 +1,9 @@
+>3_90_770_query
+PDBs: 2r4fA02, 3qaeA01
+PEVPTEVAIGGVVIENNAIIAGDELTTGLLGARLAIAAL
+[56, 69, 72, 73, 76, 78, 82, 83, 92, 96, 97, 102, 107, 113, 130, 154, 159, 163, 164, 166, 167, 169, 171, 203, 205, 210, 218, 220, 225, 236, 237, 250, 251, 253, 254, 256, 263, 271, 272]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2r4fA02	P (OK)	E (OK)	V (OK)	P (OK)	T (OK)	E (OK)	V (OK)	A (OK)	I (OK)	G (OK)	G (OK)	V (OK)	V (OK)	I (OK)	E (OK)	N (OK)	N (OK)	A (OK)	I (OK)	I (OK)	A (OK)	G (OK)	D (OK)	E (OK)	L (OK)	T (OK)	T (OK)	G (OK)	L (OK)	L (OK)	G (OK)	A (OK)	R (OK)	L (OK)	A (OK)	I (OK)	A (OK)	A (OK)	L (OK)
+3qaeA01	P (OK)	E (OK)	V (OK)	P (OK)	T (OK)	E (OK)	V (OK)	A (OK)	I (OK)	G (OK)	G (OK)	V (OK)	V (OK)	I (OK)	E (OK)	N (OK)	N (OK)	A (OK)	I (OK)	I (OK)	A (OK)	G (OK)	D (OK)	E (OK)	L (OK)	T (OK)	T (OK)	G (OK)	L (OK)	L (OK)	G (OK)	A (OK)	R (OK)	L (OK)	A (OK)	I (OK)	A (OK)	A (OK)	L (OK)

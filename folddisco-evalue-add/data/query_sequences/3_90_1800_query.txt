@@ -1,0 +1,9 @@
+>3_90_1800_query
+PDBs: 1twfB08, 6ruiB08
+GRGEMERDIHGLRLSDCCGEIPKLELAM
+[16, 18, 20, 21, 22, 23, 24, 25, 28, 30, 31, 36, 39, 40, 44, 45, 52, 55, 56, 101, 119, 120, 124, 126, 129, 130, 132, 133]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1twfB08	G (OK)	R (OK)	G (OK)	E (OK)	M (OK)	E (OK)	R (OK)	D (OK)	I (OK)	H (OK)	G (OK)	L (OK)	R (OK)	L (OK)	S (OK)	D (OK)	C (OK)	C (OK)	G (OK)	E (OK)	I (OK)	P (OK)	K (OK)	L (OK)	E (OK)	L (OK)	A (OK)	M (OK)
+6ruiB08	G (OK)	R (OK)	G (OK)	E (OK)	M (OK)	E (OK)	R (OK)	D (OK)	I (OK)	H (OK)	G (OK)	L (OK)	R (OK)	L (OK)	S (OK)	D (OK)	C (OK)	C (OK)	G (OK)	E (OK)	I (OK)	P (OK)	K (OK)	L (OK)	E (OK)	L (OK)	A (OK)	M (OK)

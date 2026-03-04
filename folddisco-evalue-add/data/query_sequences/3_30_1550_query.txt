@@ -1,0 +1,9 @@
+>3_30_1550_query
+PDBs: 3cjsC00, 7vb2A01
+VVLGPGGATVTIR
+[4, 5, 7, 12, 22, 25, 28, 41, 42, 52, 55, 56, 60]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+3cjsC00	V (OK)	V (OK)	L (OK)	G (OK)	P (OK)	G (OK)	G (OK)	A (OK)	T (OK)	V (OK)	T (OK)	I (OK)	R (OK)
+7vb2A01	V (OK)	V (OK)	L (OK)	G (OK)	P (OK)	G (OK)	G (OK)	A (OK)	T (OK)	V (OK)	T (OK)	I (OK)	R (OK)

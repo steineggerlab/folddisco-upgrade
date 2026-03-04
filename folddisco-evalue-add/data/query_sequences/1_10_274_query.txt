@@ -1,0 +1,11 @@
+>1_10_274_query
+PDBs: 1hqmD02, 5vi5D01, 1twfA05, 6hqfB03
+AGEALL
+[84, 88, 159, 185, 187, 191]
+[0.75, 0.75, 0.75, 0.75, 0.75, 0.75]
+
+# Match Table
+1hqmD02	A (OK)	G (OK)	P (X)	A (OK)	L (OK)	L (OK)
+5vi5D01	A (OK)	G (OK)	E (OK)	A (OK)	T (X)	L (OK)
+1twfA05	A (OK)	G (OK)	E (OK)	A (OK)	L (OK)	I (X)
+6hqfB03	T (X)	T (X)	E (OK)	D (X)	L (OK)	L (OK)

@@ -1,0 +1,9 @@
+>2_40_150_query
+PDBs: 4a17J00, 5oomL00
+DNSIGDILAPFNVGGIPKVAV
+[27, 28, 29, 43, 61, 62, 64, 65, 82, 90, 101, 104, 107, 113, 117, 120, 123, 137, 138, 142, 146]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+4a17J00	D (OK)	N (OK)	S (OK)	I (OK)	G (OK)	D (OK)	I (OK)	L (OK)	A (OK)	P (OK)	F (OK)	N (OK)	V (OK)	G (OK)	G (OK)	I (OK)	P (OK)	K (OK)	V (OK)	A (OK)	V (OK)
+5oomL00	D (OK)	N (OK)	S (OK)	I (OK)	G (OK)	D (OK)	I (OK)	L (OK)	A (OK)	P (OK)	F (OK)	N (OK)	V (OK)	G (OK)	G (OK)	I (OK)	P (OK)	K (OK)	V (OK)	A (OK)	V (OK)

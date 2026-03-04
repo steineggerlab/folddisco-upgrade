@@ -1,0 +1,9 @@
+>1_20_1120_query
+PDBs: 1epwA02, 3vuoA02
+YLQLSFVYSFWKNIVGALNFGLLPKYQWQQIISLNFNSPNI
+[39, 40, 43, 54, 56, 58, 70, 71, 72, 73, 100, 102, 113, 125, 129, 133, 135, 136, 137, 147, 155, 159, 166, 169, 198, 207, 213, 214, 221, 236, 243, 244, 252, 275, 288, 289, 291, 294, 304, 315, 325]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1epwA02	Y (OK)	L (OK)	Q (OK)	L (OK)	S (OK)	F (OK)	V (OK)	Y (OK)	S (OK)	F (OK)	W (OK)	K (OK)	N (OK)	I (OK)	V (OK)	G (OK)	A (OK)	L (OK)	N (OK)	F (OK)	G (OK)	L (OK)	L (OK)	P (OK)	K (OK)	Y (OK)	Q (OK)	W (OK)	Q (OK)	Q (OK)	I (OK)	I (OK)	S (OK)	L (OK)	N (OK)	F (OK)	N (OK)	S (OK)	P (OK)	N (OK)	I (OK)
+3vuoA02	Y (OK)	L (OK)	Q (OK)	L (OK)	S (OK)	F (OK)	V (OK)	Y (OK)	S (OK)	F (OK)	W (OK)	K (OK)	N (OK)	I (OK)	V (OK)	G (OK)	A (OK)	L (OK)	N (OK)	F (OK)	G (OK)	L (OK)	L (OK)	P (OK)	K (OK)	Y (OK)	Q (OK)	W (OK)	Q (OK)	Q (OK)	I (OK)	I (OK)	S (OK)	L (OK)	N (OK)	F (OK)	N (OK)	S (OK)	P (OK)	N (OK)	I (OK)

@@ -1,0 +1,12 @@
+>1_10_486_query
+PDBs: 4c2uA04, 4ceiA05, 1w36B04, 1qhhC00, 1w36C04
+VR
+[149, 170]
+[0.8, 0.8]
+
+# Match Table
+4c2uA04	V (OK)	R (OK)
+4ceiA05	V (OK)	R (OK)
+1w36B04	L (X)	R (OK)
+1qhhC00	V (OK)	R (OK)
+1w36C04	V (OK)	M (X)

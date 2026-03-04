@@ -1,0 +1,9 @@
+>1_20_142_query
+PDBs: 1efyA01, 4bgpA01
+YKPNLALNED
+[48, 85, 88, 99, 120, 125, 129, 133, 134, 137]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1efyA01	Y (OK)	K (OK)	P (OK)	N (OK)	L (OK)	A (OK)	L (OK)	N (OK)	E (OK)	D (OK)
+4bgpA01	Y (OK)	K (OK)	P (OK)	N (OK)	L (OK)	A (OK)	L (OK)	N (OK)	E (OK)	D (OK)

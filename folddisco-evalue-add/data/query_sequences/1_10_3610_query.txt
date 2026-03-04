@@ -1,0 +1,9 @@
+>1_10_3610_query
+PDBs: 2gttJ02, 3hhwK02
+DCLFKEMPGQESYGLSKSPYSRNAGFYRR
+[2, 3, 6, 9, 14, 35, 39, 42, 43, 44, 45, 51, 52, 60, 61, 62, 64, 65, 66, 67, 69, 90, 93, 94, 109, 126, 136, 154, 189]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2gttJ02	D (OK)	C (OK)	L (OK)	F (OK)	K (OK)	E (OK)	M (OK)	P (OK)	G (OK)	Q (OK)	E (OK)	S (OK)	Y (OK)	G (OK)	L (OK)	S (OK)	K (OK)	S (OK)	P (OK)	Y (OK)	S (OK)	R (OK)	N (OK)	A (OK)	G (OK)	F (OK)	Y (OK)	R (OK)	R (OK)
+3hhwK02	D (OK)	C (OK)	L (OK)	F (OK)	K (OK)	E (OK)	M (OK)	P (OK)	G (OK)	Q (OK)	E (OK)	S (OK)	Y (OK)	G (OK)	L (OK)	S (OK)	K (OK)	S (OK)	P (OK)	Y (OK)	S (OK)	R (OK)	N (OK)	A (OK)	G (OK)	F (OK)	Y (OK)	R (OK)	R (OK)

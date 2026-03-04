@@ -1,0 +1,9 @@
+>1_10_1070_query
+PDBs: 2wxfA05, 7wzwF01
+QDWPASALGGDRHNIGHDFFERALMKLEAE
+[28, 44, 53, 59, 67, 74, 76, 85, 86, 88, 89, 90, 91, 94, 95, 102, 106, 108, 109, 144, 149, 156, 167, 168, 169, 181, 186, 209, 210, 213]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+2wxfA05	Q (OK)	D (OK)	W (OK)	P (OK)	A (OK)	S (OK)	A (OK)	L (OK)	G (OK)	G (OK)	D (OK)	R (OK)	H (OK)	N (OK)	I (OK)	G (OK)	H (OK)	D (OK)	F (OK)	F (OK)	E (OK)	R (OK)	A (OK)	L (OK)	M (OK)	K (OK)	L (OK)	E (OK)	A (OK)	E (OK)
+7wzwF01	Q (OK)	D (OK)	W (OK)	P (OK)	A (OK)	S (OK)	A (OK)	L (OK)	G (OK)	G (OK)	D (OK)	R (OK)	H (OK)	N (OK)	I (OK)	G (OK)	H (OK)	D (OK)	F (OK)	F (OK)	E (OK)	R (OK)	A (OK)	L (OK)	M (OK)	K (OK)	L (OK)	E (OK)	A (OK)	E (OK)
