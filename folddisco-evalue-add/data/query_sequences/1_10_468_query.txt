@@ -1,9 +1,0 @@
->1_10_468_query
-PDBs: 1eysC01, 1eysC02
-PSYSVMGCCHVRNGPA
-[18, 22, 31, 33, 36, 73, 85, 86, 89, 90, 115, 116, 119, 139, 141, 152]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1eysC01	P (OK)	S (OK)	Y (OK)	S (OK)	V (OK)	M (OK)	G (OK)	C (OK)	C (OK)	H (OK)	V (OK)	R (OK)	N (OK)	G (OK)	P (OK)	A (OK)
-1eysC02	P (OK)	S (OK)	Y (OK)	S (OK)	V (OK)	M (OK)	G (OK)	C (OK)	C (OK)	H (OK)	V (OK)	R (OK)	N (OK)	G (OK)	P (OK)	A (OK)

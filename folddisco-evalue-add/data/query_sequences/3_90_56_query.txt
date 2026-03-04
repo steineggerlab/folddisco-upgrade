@@ -1,9 +1,0 @@
->3_90_56_query
-PDBs: 1hqiA00, 4gamD00
-VENPVIAEELGRVLVDVGF
-[37, 52, 63, 64, 68, 77, 79, 84, 92, 94, 95, 96, 100, 104, 105, 106, 107, 112, 121]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1hqiA00	V (OK)	E (OK)	N (OK)	P (OK)	V (OK)	I (OK)	A (OK)	E (OK)	E (OK)	L (OK)	G (OK)	R (OK)	V (OK)	L (OK)	V (OK)	D (OK)	V (OK)	G (OK)	F (OK)
-4gamD00	V (OK)	E (OK)	N (OK)	P (OK)	V (OK)	I (OK)	A (OK)	E (OK)	E (OK)	L (OK)	G (OK)	R (OK)	V (OK)	L (OK)	V (OK)	D (OK)	V (OK)	G (OK)	F (OK)

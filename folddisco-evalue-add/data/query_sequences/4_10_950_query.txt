@@ -1,9 +1,0 @@
->4_10_950_query
-PDBs: 1jj2A03, 1vvmD03
-GKAGPVRGAMNVDHPGGGRPPGR
-[0, 11, 12, 13, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 40, 42, 43, 44, 57, 60, 61, 66, 75]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1jj2A03	G (OK)	K (OK)	A (OK)	G (OK)	P (OK)	V (OK)	R (OK)	G (OK)	A (OK)	M (OK)	N (OK)	V (OK)	D (OK)	H (OK)	P (OK)	G (OK)	G (OK)	G (OK)	R (OK)	P (OK)	P (OK)	G (OK)	R (OK)
-1vvmD03	G (OK)	K (OK)	A (OK)	G (OK)	P (OK)	V (OK)	R (OK)	G (OK)	A (OK)	M (OK)	N (OK)	V (OK)	D (OK)	H (OK)	P (OK)	G (OK)	G (OK)	G (OK)	R (OK)	P (OK)	P (OK)	G (OK)	R (OK)

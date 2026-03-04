@@ -1,9 +1,0 @@
->3_50_20_query
-PDBs: 1hq6B00, 2qqdC00
-LGAPGAIKDEGKEGAA
-[94, 111, 117, 126, 137, 143, 144, 150, 151, 161, 164, 183, 213, 218, 220, 224]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1hq6B00	L (OK)	G (OK)	A (OK)	P (OK)	G (OK)	A (OK)	I (OK)	K (OK)	D (OK)	E (OK)	G (OK)	K (OK)	E (OK)	G (OK)	A (OK)	A (OK)
-2qqdC00	L (OK)	G (OK)	A (OK)	P (OK)	G (OK)	A (OK)	I (OK)	K (OK)	D (OK)	E (OK)	G (OK)	K (OK)	E (OK)	G (OK)	A (OK)	A (OK)

@@ -1,9 +1,0 @@
->1_10_3420_query
-PDBs: 2rfpA00, 5hzzC00
-PFHPTPRTAEELDLYGGFVANSKPGWPE
-[12, 21, 22, 33, 34, 37, 44, 46, 69, 72, 88, 105, 107, 109, 110, 114, 120, 127, 130, 133, 134, 149, 155, 156, 158, 159, 161, 169]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2rfpA00	P (OK)	F (OK)	H (OK)	P (OK)	T (OK)	P (OK)	R (OK)	T (OK)	A (OK)	E (OK)	E (OK)	L (OK)	D (OK)	L (OK)	Y (OK)	G (OK)	G (OK)	F (OK)	V (OK)	A (OK)	N (OK)	S (OK)	K (OK)	P (OK)	G (OK)	W (OK)	P (OK)	E (OK)
-5hzzC00	P (OK)	F (OK)	H (OK)	P (OK)	T (OK)	P (OK)	R (OK)	T (OK)	A (OK)	E (OK)	E (OK)	L (OK)	D (OK)	L (OK)	Y (OK)	G (OK)	G (OK)	F (OK)	V (OK)	A (OK)	N (OK)	S (OK)	K (OK)	P (OK)	G (OK)	W (OK)	P (OK)	E (OK)

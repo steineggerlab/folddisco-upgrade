@@ -1,9 +1,0 @@
->3_40_449_query
-PDBs: 1khbA01, 1ytmA01
-ISEEQIVEEEAYVGMEGLKLNTIYGGKKML
-[35, 40, 42, 43, 50, 67, 68, 71, 92, 93, 101, 113, 114, 120, 146, 155, 158, 166, 177, 179, 182, 190, 202, 208, 209, 210, 216, 217, 223, 227]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1khbA01	I (OK)	S (OK)	E (OK)	E (OK)	Q (OK)	I (OK)	V (OK)	E (OK)	E (OK)	E (OK)	A (OK)	Y (OK)	V (OK)	G (OK)	M (OK)	E (OK)	G (OK)	L (OK)	K (OK)	L (OK)	N (OK)	T (OK)	I (OK)	Y (OK)	G (OK)	G (OK)	K (OK)	K (OK)	M (OK)	L (OK)
-1ytmA01	I (OK)	S (OK)	E (OK)	E (OK)	Q (OK)	I (OK)	V (OK)	E (OK)	E (OK)	E (OK)	A (OK)	Y (OK)	V (OK)	G (OK)	M (OK)	E (OK)	G (OK)	L (OK)	K (OK)	L (OK)	N (OK)	T (OK)	I (OK)	Y (OK)	G (OK)	G (OK)	K (OK)	K (OK)	M (OK)	L (OK)

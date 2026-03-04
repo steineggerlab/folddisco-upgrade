@@ -1,9 +1,0 @@
->2_20_130_query
-PDBs: 3cu7A06, 3hrzB01
-SRSFPSWLWKFLDSTTWGICVAVK
-[49, 54, 55, 57, 58, 60, 61, 62, 63, 80, 84, 86, 88, 89, 91, 92, 93, 105, 106, 107, 108, 109, 116, 118]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3cu7A06	S (OK)	R (OK)	S (OK)	F (OK)	P (OK)	S (OK)	W (OK)	L (OK)	W (OK)	K (OK)	F (OK)	L (OK)	D (OK)	S (OK)	T (OK)	T (OK)	W (OK)	G (OK)	I (OK)	C (OK)	V (OK)	A (OK)	V (OK)	K (OK)
-3hrzB01	S (OK)	R (OK)	S (OK)	F (OK)	P (OK)	S (OK)	W (OK)	L (OK)	W (OK)	K (OK)	F (OK)	L (OK)	D (OK)	S (OK)	T (OK)	T (OK)	W (OK)	G (OK)	I (OK)	C (OK)	V (OK)	A (OK)	V (OK)	K (OK)
