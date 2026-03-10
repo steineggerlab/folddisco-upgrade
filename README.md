@@ -53,7 +53,7 @@ coverage = 0.5, e-value cutoff = 0.1
 
 Outcome: remove domains participating in 63 non-self clusters
 
-## Directory: mmseqs-analysis
+## Directory: 03-mmseqs-analysis
 Sequence redundancy / similarity removal using MMseqs2 clustering.
 
 Goal: remove remaining sequence-related domains that may survive structural filtering
