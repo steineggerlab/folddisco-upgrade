@@ -42,13 +42,13 @@ Organize PDB files (command/pdb_organize.sh)
 
 Output: result/filtered_pdbs/ (N = 10547)
 
-## Directory: foldseek-cluster-analysis
+## Directory: 02-foldseek-cluster-analysis
 Structural redundancy / similarity removal using Foldseek clustering.
 
 Goal: ensure the “null” pool does not contain obvious structural relatives
 
 Method: grid search over coverage + E-value cutoffs
-Selected configuration: trial 15
+Selected configuration in result/clusters
 coverage = 0.5, e-value cutoff = 0.1
 
 Outcome: remove domains participating in 63 non-self clusters
