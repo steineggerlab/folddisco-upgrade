@@ -30,7 +30,7 @@ Run Folddisco on query vs index matches, aggregate match statistics by query len
 Final workflow produces a single E-value function that can be applied across lengths (after calibration).
 
 
-## Directory: cath-db-v2
+## Directory: 01-cath-data-collection
 Pipeline to collect and filter CATH domains and produce the initial large index set.
 
 Input: CATH-Plus v4.3 nonredundant domain data (in data/)
