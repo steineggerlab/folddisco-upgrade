@@ -6,6 +6,7 @@
 .cargo/
 .config/
 .dotnet/
+.DS_Store
 .gitconfig
 .ipython/
 .jupyter/
@@ -24,7 +25,6 @@ aria2/
 bin/
 checkpoints/
 folddisco-linux-x86_64.tar.gz*
-folddisco-upgrade/
 folddisco/
 foldmason/
 foldseek/
@@ -33,6 +33,4 @@ local/
 metrics/
 miniforge/
 mmseqs/
-test.list
-train.list
-valid.list
+
