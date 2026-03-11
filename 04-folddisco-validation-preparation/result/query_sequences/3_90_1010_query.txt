@@ -1,0 +1,9 @@
+>3_90_1010_query
+PDBs: 1su0B00, 3g0mA00
+IARA
+[69, 130, 139, 149]
+[1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1su0B00	I (OK)	A (OK)	R (OK)	A (OK)
+3g0mA00	I (OK)	A (OK)	R (OK)	A (OK)

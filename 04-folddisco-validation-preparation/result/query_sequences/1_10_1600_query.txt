@@ -1,0 +1,9 @@
+>1_10_1600_query
+PDBs: 1jeyA04, 7zygB02
+QANPQFLAPPEK
+[18, 24, 52, 53, 56, 59, 62, 66, 75, 87, 90, 104]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1jeyA04	Q (OK)	A (OK)	N (OK)	P (OK)	Q (OK)	F (OK)	L (OK)	A (OK)	P (OK)	P (OK)	E (OK)	K (OK)
+7zygB02	Q (OK)	A (OK)	N (OK)	P (OK)	Q (OK)	F (OK)	L (OK)	A (OK)	P (OK)	P (OK)	E (OK)	K (OK)

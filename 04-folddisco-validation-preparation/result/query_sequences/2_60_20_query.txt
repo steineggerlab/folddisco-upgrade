@@ -1,0 +1,13 @@
+>2_60_20_query
+PDBs: 2jdgA01, 4fd9A00, 4el6A00, 1prrA02, 1yhpA01, 4iauA01
+GSWGS
+[18, 49, 60, 76, 102]
+[1.0, 0.8333333333333334, 0.6666666666666666, 0.8333333333333334, 0.8333333333333334]
+
+# Match Table
+2jdgA01	G (OK)	S (OK)	W (OK)	G (OK)	S (OK)
+4fd9A00	G (OK)	S (OK)	W (OK)	G (OK)	S (OK)
+4el6A00	G (OK)	S (OK)	W (OK)	G (OK)	S (OK)
+1prrA02	G (OK)	S (OK)	V (X)	G (OK)	S (OK)
+1yhpA01	G (OK)	S (OK)	C (X)	G (OK)	K (X)
+4iauA01	G (OK)	R (X)	W (OK)	S (X)	S (OK)

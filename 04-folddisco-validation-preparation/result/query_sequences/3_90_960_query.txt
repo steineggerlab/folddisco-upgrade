@@ -1,0 +1,12 @@
+>3_90_960_query
+PDBs: 2z0xA00, 3op6A00, 2j3lA03, 3memA01, 1vkiA00
+LKLGPDD
+[12, 50, 87, 105, 112, 125, 151]
+[0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+2z0xA00	L (OK)	K (OK)	L (OK)	G (OK)	P (OK)	D (OK)	E (X)
+3op6A00	L (OK)	K (OK)	L (OK)	G (OK)	P (OK)	S (X)	D (OK)
+2j3lA03	S (X)	K (OK)	L (OK)	G (OK)	P (OK)	D (OK)	D (OK)
+3memA01	L (OK)	R (X)	L (OK)	L (X)	P (OK)	D (OK)	D (OK)
+1vkiA00	L (OK)	K (OK)	V (X)	G (OK)	A (X)	D (OK)	D (OK)

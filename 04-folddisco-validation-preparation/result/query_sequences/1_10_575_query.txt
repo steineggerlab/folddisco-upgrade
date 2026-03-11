@@ -1,0 +1,9 @@
+>1_10_575_query
+PDBs: 1ak0A00, 1khoA01
+WHAALDHFSILHGDPHHTAAALDAI
+[0, 10, 11, 14, 52, 60, 76, 77, 113, 115, 138, 143, 146, 147, 151, 153, 176, 181, 238, 242, 245, 248, 272, 283, 293]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1ak0A00	W (OK)	H (OK)	A (OK)	A (OK)	L (OK)	D (OK)	H (OK)	F (OK)	S (OK)	I (OK)	L (OK)	H (OK)	G (OK)	D (OK)	P (OK)	H (OK)	H (OK)	T (OK)	A (OK)	A (OK)	A (OK)	L (OK)	D (OK)	A (OK)	I (OK)
+1khoA01	W (OK)	H (OK)	A (OK)	A (OK)	L (OK)	D (OK)	H (OK)	F (OK)	S (OK)	I (OK)	L (OK)	H (OK)	G (OK)	D (OK)	P (OK)	H (OK)	H (OK)	T (OK)	A (OK)	A (OK)	A (OK)	L (OK)	D (OK)	A (OK)	I (OK)

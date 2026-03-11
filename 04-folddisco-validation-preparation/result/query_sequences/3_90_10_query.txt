@@ -1,0 +1,12 @@
+>3_90_10_query
+PDBs: 1i77A00, 2e84A03, 1os6A00, 1z1nX03, 1z1nX04
+VFHHCCH
+[71, 73, 75, 78, 85, 88, 89]
+[0.8, 1.0, 1.0, 0.8, 0.8, 0.8, 0.8]
+
+# Match Table
+1i77A00	V (OK)	F (OK)	H (OK)	H (OK)	C (OK)	C (OK)	H (OK)
+2e84A03	V (OK)	F (OK)	H (OK)	H (OK)	C (OK)	C (OK)	H (OK)
+1os6A00	V (OK)	F (OK)	H (OK)	H (OK)	C (OK)	C (OK)	H (OK)
+1z1nX03	V (OK)	F (OK)	H (OK)	H (OK)	C (OK)	C (OK)	H (OK)
+1z1nX04	A (X)	F (OK)	H (OK)	I (X)	V (X)	A (X)	A (X)

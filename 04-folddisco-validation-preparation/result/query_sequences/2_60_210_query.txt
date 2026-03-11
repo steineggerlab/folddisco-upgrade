@@ -1,0 +1,12 @@
+>2_60_210_query
+PDBs: 4gwmB03, 5e1tC00, 2f1zB01, 3hqiA01, 4ca1B02
+SDV
+[70, 209, 217]
+[0.8, 0.8, 0.8]
+
+# Match Table
+4gwmB03	S (OK)	D (OK)	V (OK)
+5e1tC00	S (OK)	D (OK)	V (OK)
+2f1zB01	S (OK)	D (OK)	V (OK)
+3hqiA01	S (OK)	D (OK)	V (OK)
+4ca1B02	M (X)	G (X)	I (X)

@@ -1,0 +1,9 @@
+>3_10_10_query
+PDBs: 1lwfB01, 6mihA02
+LKKQPELGPNTPRDRENKRAF
+[6, 7, 16, 17, 19, 23, 35, 39, 49, 51, 52, 53, 66, 70, 72, 73, 75, 76, 77, 98, 99]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1lwfB01	L (OK)	K (OK)	K (OK)	Q (OK)	P (OK)	E (OK)	L (OK)	G (OK)	P (OK)	N (OK)	T (OK)	P (OK)	R (OK)	D (OK)	R (OK)	E (OK)	N (OK)	K (OK)	R (OK)	A (OK)	F (OK)
+6mihA02	L (OK)	K (OK)	K (OK)	Q (OK)	P (OK)	E (OK)	L (OK)	G (OK)	P (OK)	N (OK)	T (OK)	P (OK)	R (OK)	D (OK)	R (OK)	E (OK)	N (OK)	K (OK)	R (OK)	A (OK)	F (OK)

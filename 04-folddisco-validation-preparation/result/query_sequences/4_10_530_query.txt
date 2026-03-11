@@ -1,0 +1,9 @@
+>4_10_530_query
+PDBs: 1lwuB02, 4r9jA02
+GLHNFSTDDNDCGWWYCHNNGRYGGWKGYS
+[0, 3, 20, 21, 25, 26, 27, 29, 31, 32, 33, 44, 50, 52, 53, 54, 57, 58, 61, 63, 64, 65, 66, 70, 84, 87, 91, 92, 95, 96]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1lwuB02	G (OK)	L (OK)	H (OK)	N (OK)	F (OK)	S (OK)	T (OK)	D (OK)	D (OK)	N (OK)	D (OK)	C (OK)	G (OK)	W (OK)	W (OK)	Y (OK)	C (OK)	H (OK)	N (OK)	N (OK)	G (OK)	R (OK)	Y (OK)	G (OK)	G (OK)	W (OK)	K (OK)	G (OK)	Y (OK)	S (OK)
+4r9jA02	G (OK)	L (OK)	H (OK)	N (OK)	F (OK)	S (OK)	T (OK)	D (OK)	D (OK)	N (OK)	D (OK)	C (OK)	G (OK)	W (OK)	W (OK)	Y (OK)	C (OK)	H (OK)	N (OK)	N (OK)	G (OK)	R (OK)	Y (OK)	G (OK)	G (OK)	W (OK)	K (OK)	G (OK)	Y (OK)	S (OK)

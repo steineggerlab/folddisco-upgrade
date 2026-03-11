@@ -1,0 +1,9 @@
+>2_170_8_query
+PDBs: 1j3bA02, 4wptA02
+LHPGPNVVWDNRP
+[4, 9, 19, 26, 40, 55, 56, 65, 67, 79, 98, 100, 104]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1j3bA02	L (OK)	H (OK)	P (OK)	G (OK)	P (OK)	N (OK)	V (OK)	V (OK)	W (OK)	D (OK)	N (OK)	R (OK)	P (OK)
+4wptA02	L (OK)	H (OK)	P (OK)	G (OK)	P (OK)	N (OK)	V (OK)	V (OK)	W (OK)	D (OK)	N (OK)	R (OK)	P (OK)

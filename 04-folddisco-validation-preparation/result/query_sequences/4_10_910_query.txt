@@ -1,0 +1,9 @@
+>4_10_910_query
+PDBs: 1i94M02, 2vhoM02
+EIKRLMDGCYRGLRHRR
+[8, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+# Match Table
+1i94M02	E (OK)	I (OK)	K (OK)	R (OK)	L (OK)	M (OK)	D (OK)	G (OK)	C (OK)	Y (OK)	R (OK)	G (OK)	L (OK)	R (OK)	H (OK)	R (OK)	R (OK)
+2vhoM02	E (OK)	I (OK)	K (OK)	R (OK)	L (OK)	M (OK)	D (OK)	G (OK)	C (OK)	Y (OK)	R (OK)	G (OK)	L (OK)	R (OK)	H (OK)	R (OK)	R (OK)
