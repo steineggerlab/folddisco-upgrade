@@ -5,6 +5,8 @@ Unrelated pairs produce mostly low similarity scores (background / null distribu
 Within-superfamily pairs (true positives) produce higher similarity scores (signal).
 This yields separable score distributions, enabling us to fit an E-value model for Folddisco match statistics.
 
+(Data files including pdb files are to be released separately)
+
 High-level pipeline (summary)
 1. Construct a large CATH-derived index set
 Gather and filter CATH-Plus v4.3 nonredundant domain PDBs to form an initial index set.
@@ -63,7 +65,7 @@ Method: build FASTA from PDBs → run MMseqs clustering (command/mmseqs_cluster.
 Outcome: 4 domains clustered and removed
 Resulting candidate pool: N = 657 “non-cluster” domains (used to form query representatives)
 
-## Directory: folddisco-validation-result
+## Directory: 04-folddisco-analysis-preparation/
 Data:
 data/non_cluster_pdbs/ : filtered candidate anchors (N = 657)
 data/index_pdbs/ : full index (N = 10547)
@@ -81,7 +83,6 @@ Result: 372 subgroups with 1719 query domains
 
 3. Extract domain metadata and other annotations (command/03-04)
 
-Note: later steps are duplicated/continued in folddisco-updated-validation/.
 
 ## Directory: folddisco-updated-validation
 Main Folddisco run + score aggregation + E-value fitting + validation.
