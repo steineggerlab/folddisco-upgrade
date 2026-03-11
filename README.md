@@ -84,7 +84,7 @@ Result: 372 subgroups with 1719 query domains
 3. Extract domain metadata and other annotations (command/03-04)
 
 
-## Directory: folddisco-updated-validation
+## Directory: 05-folddisco-validation
 Main Folddisco run + score aggregation + E-value fitting + validation.
 
 Steps:
@@ -94,8 +94,3 @@ Steps:
 4. Derive a single unified E-value function (length-independent at inference time) and compute E-values for all matches (command/05)
 5. Validate fit quality and calibration (command/06-08)
 
-Fitting notes (important):
-Multiple fitting schemes were explored (especially to reduce the fitted mu, which strongly affects calibration). These experiments live under command/00.
-The finalized scheme is based on:
-result_expanded/result_expanded4/
-(This is the version you consider the “production” calibration.)
