@@ -1,9 +1,0 @@
->3_10_560_query
-PDBs: 7xffF01, 8dfkB01
-IGVGAIAGGADVLLGY
-[12, 14, 16, 20, 34, 35, 38, 39, 40, 45, 46, 50, 63, 78, 81, 85]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-7xffF01	I (OK)	G (OK)	V (OK)	G (OK)	A (OK)	I (OK)	A (OK)	G (OK)	G (OK)	A (OK)	D (OK)	V (OK)	L (OK)	L (OK)	G (OK)	Y (OK)
-8dfkB01	I (OK)	G (OK)	V (OK)	G (OK)	A (OK)	I (OK)	A (OK)	G (OK)	G (OK)	A (OK)	D (OK)	V (OK)	L (OK)	L (OK)	G (OK)	Y (OK)

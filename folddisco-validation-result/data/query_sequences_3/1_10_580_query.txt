@@ -1,9 +1,0 @@
->1_10_580_query
-PDBs: 3o8jA01, 6bomE01
-GIDELLGPALLPPHPMVALDLLADFLLQLLHENSSDLGPHTFRGIRIRP
-[66, 69, 71, 88, 93, 94, 97, 100, 107, 112, 118, 119, 130, 134, 135, 136, 143, 145, 146, 171, 176, 177, 178, 203, 212, 215, 216, 224, 234, 236, 240, 241, 244, 246, 258, 259, 271, 273, 274, 276, 285, 288, 292, 295, 301, 304, 310, 312, 313]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3o8jA01	G (OK)	I (OK)	D (OK)	E (OK)	L (OK)	L (OK)	G (OK)	P (OK)	A (OK)	L (OK)	L (OK)	P (OK)	P (OK)	H (OK)	P (OK)	M (OK)	V (OK)	A (OK)	L (OK)	D (OK)	L (OK)	L (OK)	A (OK)	D (OK)	F (OK)	L (OK)	L (OK)	Q (OK)	L (OK)	L (OK)	H (OK)	E (OK)	N (OK)	S (OK)	S (OK)	D (OK)	L (OK)	G (OK)	P (OK)	H (OK)	T (OK)	F (OK)	R (OK)	G (OK)	I (OK)	R (OK)	I (OK)	R (OK)	P (OK)
-6bomE01	G (OK)	I (OK)	D (OK)	E (OK)	L (OK)	L (OK)	G (OK)	P (OK)	A (OK)	L (OK)	L (OK)	P (OK)	P (OK)	H (OK)	P (OK)	M (OK)	V (OK)	A (OK)	L (OK)	D (OK)	L (OK)	L (OK)	A (OK)	D (OK)	F (OK)	L (OK)	L (OK)	Q (OK)	L (OK)	L (OK)	H (OK)	E (OK)	N (OK)	S (OK)	S (OK)	D (OK)	L (OK)	G (OK)	P (OK)	H (OK)	T (OK)	F (OK)	R (OK)	G (OK)	I (OK)	R (OK)	I (OK)	R (OK)	P (OK)

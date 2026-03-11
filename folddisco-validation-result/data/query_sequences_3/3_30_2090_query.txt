@@ -1,9 +1,0 @@
->3_30_2090_query
-PDBs: 3w9iA04, 8ffkA03
-IDKDAGIEDGV
-[6, 9, 12, 22, 29, 47, 54, 65, 77, 78, 81]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3w9iA04	I (OK)	D (OK)	K (OK)	D (OK)	A (OK)	G (OK)	I (OK)	E (OK)	D (OK)	G (OK)	V (OK)
-8ffkA03	I (OK)	D (OK)	K (OK)	D (OK)	A (OK)	G (OK)	I (OK)	E (OK)	D (OK)	G (OK)	V (OK)

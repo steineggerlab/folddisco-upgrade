@@ -1,9 +1,0 @@
->3_30_760_query
-PDBs: 1ap8A00, 1ztpA01
-MVDDPVAAGKWLGDWASGTLGL
-[1, 6, 18, 34, 38, 71, 76, 108, 116, 117, 118, 122, 126, 130, 133, 139, 158, 165, 173, 200, 211, 220]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1ap8A00	M (OK)	V (OK)	D (OK)	D (OK)	P (OK)	V (OK)	A (OK)	A (OK)	G (OK)	K (OK)	W (OK)	L (OK)	G (OK)	D (OK)	W (OK)	A (OK)	S (OK)	G (OK)	T (OK)	L (OK)	G (OK)	L (OK)
-1ztpA01	M (OK)	V (OK)	D (OK)	D (OK)	P (OK)	V (OK)	A (OK)	A (OK)	G (OK)	K (OK)	W (OK)	L (OK)	G (OK)	D (OK)	W (OK)	A (OK)	S (OK)	G (OK)	T (OK)	L (OK)	G (OK)	L (OK)

@@ -1,9 +1,0 @@
->3_90_1420_query
-PDBs: 3qxyA02, 3smtA02
-NDIGYFELLVCMEEELLLTYTDLLSRARGKIL
-[5, 8, 12, 24, 35, 53, 59, 66, 70, 72, 74, 75, 78, 79, 82, 115, 121, 123, 125, 126, 128, 133, 137, 146, 147, 149, 153, 157, 159, 161, 163, 164]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3qxyA02	N (OK)	D (OK)	I (OK)	G (OK)	Y (OK)	F (OK)	E (OK)	L (OK)	L (OK)	V (OK)	C (OK)	M (OK)	E (OK)	E (OK)	E (OK)	L (OK)	L (OK)	L (OK)	T (OK)	Y (OK)	T (OK)	D (OK)	L (OK)	L (OK)	S (OK)	R (OK)	A (OK)	R (OK)	G (OK)	K (OK)	I (OK)	L (OK)
-3smtA02	N (OK)	D (OK)	I (OK)	G (OK)	Y (OK)	F (OK)	E (OK)	L (OK)	L (OK)	V (OK)	C (OK)	M (OK)	E (OK)	E (OK)	E (OK)	L (OK)	L (OK)	L (OK)	T (OK)	Y (OK)	T (OK)	D (OK)	L (OK)	L (OK)	S (OK)	R (OK)	A (OK)	R (OK)	G (OK)	K (OK)	I (OK)	L (OK)
