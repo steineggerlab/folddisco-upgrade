@@ -1,9 +1,0 @@
->1_10_3060_query
-PDBs: 1m6nA04, 2ipcA04
-MVREQKRVENFRKQLLQDDVLQREVIYQRMRELVDWHDLRQGILRYQPEYEFMIEVAKFE
-[31, 32, 34, 37, 40, 41, 42, 43, 44, 47, 48, 51, 52, 53, 54, 55, 56, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 71, 72, 168, 169, 172, 177, 180, 181, 184, 187, 192, 194, 195, 196, 197, 198, 200, 201, 203, 205, 208, 211, 212, 215, 220, 223, 227, 230, 231, 232, 233, 234, 241]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1m6nA04	M (OK)	V (OK)	R (OK)	E (OK)	Q (OK)	K (OK)	R (OK)	V (OK)	E (OK)	N (OK)	F (OK)	R (OK)	K (OK)	Q (OK)	L (OK)	L (OK)	Q (OK)	D (OK)	D (OK)	V (OK)	L (OK)	Q (OK)	R (OK)	E (OK)	V (OK)	I (OK)	Y (OK)	Q (OK)	R (OK)	M (OK)	R (OK)	E (OK)	L (OK)	V (OK)	D (OK)	W (OK)	H (OK)	D (OK)	L (OK)	R (OK)	Q (OK)	G (OK)	I (OK)	L (OK)	R (OK)	Y (OK)	Q (OK)	P (OK)	E (OK)	Y (OK)	E (OK)	F (OK)	M (OK)	I (OK)	E (OK)	V (OK)	A (OK)	K (OK)	F (OK)	E (OK)
-2ipcA04	M (OK)	V (OK)	R (OK)	E (OK)	Q (OK)	K (OK)	R (OK)	V (OK)	E (OK)	N (OK)	F (OK)	R (OK)	K (OK)	Q (OK)	L (OK)	L (OK)	Q (OK)	D (OK)	D (OK)	V (OK)	L (OK)	Q (OK)	R (OK)	E (OK)	V (OK)	I (OK)	Y (OK)	Q (OK)	R (OK)	M (OK)	R (OK)	E (OK)	L (OK)	V (OK)	D (OK)	W (OK)	H (OK)	D (OK)	L (OK)	R (OK)	Q (OK)	G (OK)	I (OK)	L (OK)	R (OK)	Y (OK)	Q (OK)	P (OK)	E (OK)	Y (OK)	E (OK)	F (OK)	M (OK)	I (OK)	E (OK)	V (OK)	A (OK)	K (OK)	F (OK)	E (OK)

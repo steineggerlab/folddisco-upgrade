@@ -1,9 +1,0 @@
->3_30_2010_query
-PDBs: 3b7sA02, 4qhpA02
-KKEGYFGMENLLA
-[29, 43, 46, 50, 53, 67, 70, 72, 73, 74, 77, 86, 87]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-3b7sA02	K (OK)	K (OK)	E (OK)	G (OK)	Y (OK)	F (OK)	G (OK)	M (OK)	E (OK)	N (OK)	L (OK)	L (OK)	A (OK)
-4qhpA02	K (OK)	K (OK)	E (OK)	G (OK)	Y (OK)	F (OK)	G (OK)	M (OK)	E (OK)	N (OK)	L (OK)	L (OK)	A (OK)

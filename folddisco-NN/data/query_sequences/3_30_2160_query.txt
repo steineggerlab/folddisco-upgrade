@@ -1,9 +1,0 @@
->3_30_2160_query
-PDBs: 5hpsA01, 6lohB01
-KEDEFYINEFGLGGNKYLR
-[1, 4, 7, 9, 10, 11, 18, 21, 29, 32, 41, 49, 52, 53, 63, 64, 67, 70, 75]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-5hpsA01	K (OK)	E (OK)	D (OK)	E (OK)	F (OK)	Y (OK)	I (OK)	N (OK)	E (OK)	F (OK)	G (OK)	L (OK)	G (OK)	G (OK)	N (OK)	K (OK)	Y (OK)	L (OK)	R (OK)
-6lohB01	K (OK)	E (OK)	D (OK)	E (OK)	F (OK)	Y (OK)	I (OK)	N (OK)	E (OK)	F (OK)	G (OK)	L (OK)	G (OK)	G (OK)	N (OK)	K (OK)	Y (OK)	L (OK)	R (OK)
