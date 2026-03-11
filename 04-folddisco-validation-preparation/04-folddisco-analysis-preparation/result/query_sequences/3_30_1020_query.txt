@@ -1,9 +1,0 @@
->3_30_1020_query
-PDBs: 5ykjA02, 6krkA02
-ELRALLDPWIPPAGQ
-[6, 8, 9, 13, 14, 16, 18, 25, 28, 39, 41, 42, 51, 56, 57]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-5ykjA02	E (OK)	L (OK)	R (OK)	A (OK)	L (OK)	L (OK)	D (OK)	P (OK)	W (OK)	I (OK)	P (OK)	P (OK)	A (OK)	G (OK)	Q (OK)
-6krkA02	E (OK)	L (OK)	R (OK)	A (OK)	L (OK)	L (OK)	D (OK)	P (OK)	W (OK)	I (OK)	P (OK)	P (OK)	A (OK)	G (OK)	Q (OK)

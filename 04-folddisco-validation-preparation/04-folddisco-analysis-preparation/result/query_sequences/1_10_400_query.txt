@@ -1,9 +1,0 @@
->1_10_400_query
-PDBs: 2xtzC02, 5do9A02
-NILWQDTKYLRDYPTDVLRV
-[14, 64, 67, 68, 84, 87, 89, 90, 91, 96, 98, 101, 104, 106, 107, 110, 111, 112, 115, 116]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2xtzC02	N (OK)	I (OK)	L (OK)	W (OK)	Q (OK)	D (OK)	T (OK)	K (OK)	Y (OK)	L (OK)	R (OK)	D (OK)	Y (OK)	P (OK)	T (OK)	D (OK)	V (OK)	L (OK)	R (OK)	V (OK)
-5do9A02	N (OK)	I (OK)	L (OK)	W (OK)	Q (OK)	D (OK)	T (OK)	K (OK)	Y (OK)	L (OK)	R (OK)	D (OK)	Y (OK)	P (OK)	T (OK)	D (OK)	V (OK)	L (OK)	R (OK)	V (OK)

@@ -1,9 +1,0 @@
->4_10_70_query
-PDBs: 1mpzA00, 2m7fA00
-CGCCQCKAGCTGSDCP
-[26, 29, 31, 32, 34, 35, 36, 40, 41, 56, 57, 58, 60, 62, 63, 64]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1mpzA00	C (OK)	G (OK)	C (OK)	C (OK)	Q (OK)	C (OK)	K (OK)	A (OK)	G (OK)	C (OK)	T (OK)	G (OK)	S (OK)	D (OK)	C (OK)	P (OK)
-2m7fA00	C (OK)	G (OK)	C (OK)	C (OK)	Q (OK)	C (OK)	K (OK)	A (OK)	G (OK)	C (OK)	T (OK)	G (OK)	S (OK)	D (OK)	C (OK)	P (OK)

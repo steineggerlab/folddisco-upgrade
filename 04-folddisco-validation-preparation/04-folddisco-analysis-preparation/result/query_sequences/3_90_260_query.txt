@@ -1,9 +1,0 @@
->3_90_260_query
-PDBs: 1ex0B02, 2qsfA01
-GFLRARDKDVWEWWVDVDTY
-[172, 181, 185, 186, 192, 193, 211, 226, 227, 229, 235, 237, 239, 252, 255, 256, 274, 336, 338, 341]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1ex0B02	G (OK)	F (OK)	L (OK)	R (OK)	A (OK)	R (OK)	D (OK)	K (OK)	D (OK)	V (OK)	W (OK)	E (OK)	W (OK)	W (OK)	V (OK)	D (OK)	V (OK)	D (OK)	T (OK)	Y (OK)
-2qsfA01	G (OK)	F (OK)	L (OK)	R (OK)	A (OK)	R (OK)	D (OK)	K (OK)	D (OK)	V (OK)	W (OK)	E (OK)	W (OK)	W (OK)	V (OK)	D (OK)	V (OK)	D (OK)	T (OK)	Y (OK)

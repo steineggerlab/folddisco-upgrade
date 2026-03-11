@@ -1,9 +1,0 @@
->1_10_1900_query
-PDBs: 2o3lA00, 3kusB01
-AILESDEVA
-[32, 41, 45, 65, 69, 72, 73, 75, 76]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2o3lA00	A (OK)	I (OK)	L (OK)	E (OK)	S (OK)	D (OK)	E (OK)	V (OK)	A (OK)
-3kusB01	A (OK)	I (OK)	L (OK)	E (OK)	S (OK)	D (OK)	E (OK)	V (OK)	A (OK)
