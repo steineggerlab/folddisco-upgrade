@@ -1,9 +1,0 @@
->2_60_15_query
-PDBs: 1fs0E01, 3oe7Q00
-LGGHPPGSGGVQVAA
-[4, 28, 31, 36, 38, 45, 46, 63, 64, 65, 69, 70, 77, 79, 82]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1fs0E01	L (OK)	G (OK)	G (OK)	H (OK)	P (OK)	P (OK)	G (OK)	S (OK)	G (OK)	G (OK)	V (OK)	Q (OK)	V (OK)	A (OK)	A (OK)
-3oe7Q00	L (OK)	G (OK)	G (OK)	H (OK)	P (OK)	P (OK)	G (OK)	S (OK)	G (OK)	G (OK)	V (OK)	Q (OK)	V (OK)	A (OK)	A (OK)

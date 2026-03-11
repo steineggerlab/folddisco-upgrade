@@ -1,9 +1,0 @@
->1_20_900_query
-PDBs: 1by1A00, 4gouA03
-DNEYTLSLLQSLEGLNLYYPLEVLLPRY
-[4, 9, 24, 27, 33, 35, 36, 48, 56, 68, 73, 74, 76, 89, 92, 93, 101, 102, 105, 110, 116, 138, 152, 153, 157, 160, 163, 167]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1by1A00	D (OK)	N (OK)	E (OK)	Y (OK)	T (OK)	L (OK)	S (OK)	L (OK)	L (OK)	Q (OK)	S (OK)	L (OK)	E (OK)	G (OK)	L (OK)	N (OK)	L (OK)	Y (OK)	Y (OK)	P (OK)	L (OK)	E (OK)	V (OK)	L (OK)	L (OK)	P (OK)	R (OK)	Y (OK)
-4gouA03	D (OK)	N (OK)	E (OK)	Y (OK)	T (OK)	L (OK)	S (OK)	L (OK)	L (OK)	Q (OK)	S (OK)	L (OK)	E (OK)	G (OK)	L (OK)	N (OK)	L (OK)	Y (OK)	Y (OK)	P (OK)	L (OK)	E (OK)	V (OK)	L (OK)	L (OK)	P (OK)	R (OK)	Y (OK)

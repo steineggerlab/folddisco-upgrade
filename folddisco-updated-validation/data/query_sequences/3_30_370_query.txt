@@ -1,9 +1,0 @@
->3_30_370_query
-PDBs: 2cx6A00, 2hxxA00
-ISDLALDLDLPLEFEAE
-[9, 11, 14, 25, 26, 33, 34, 36, 38, 40, 48, 49, 52, 74, 76, 77, 80]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2cx6A00	I (OK)	S (OK)	D (OK)	L (OK)	A (OK)	L (OK)	D (OK)	L (OK)	D (OK)	L (OK)	P (OK)	L (OK)	E (OK)	F (OK)	E (OK)	A (OK)	E (OK)
-2hxxA00	I (OK)	S (OK)	D (OK)	L (OK)	A (OK)	L (OK)	D (OK)	L (OK)	D (OK)	L (OK)	P (OK)	L (OK)	E (OK)	F (OK)	E (OK)	A (OK)	E (OK)

@@ -1,9 +1,0 @@
->2_20_210_query
-PDBs: 4qzvB02, 5kycB02
-SVGV
-[5, 17, 68, 69]
-[1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-4qzvB02	S (OK)	V (OK)	G (OK)	V (OK)
-5kycB02	S (OK)	V (OK)	G (OK)	V (OK)

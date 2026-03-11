@@ -1,9 +1,0 @@
->1_10_1390_query
-PDBs: 2wu8A03, 3qkiA03
-ELGKAKSSTLY
-[2, 3, 4, 5, 8, 9, 24, 32, 33, 36, 40]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-2wu8A03	E (OK)	L (OK)	G (OK)	K (OK)	A (OK)	K (OK)	S (OK)	S (OK)	T (OK)	L (OK)	Y (OK)
-3qkiA03	E (OK)	L (OK)	G (OK)	K (OK)	A (OK)	K (OK)	S (OK)	S (OK)	T (OK)	L (OK)	Y (OK)

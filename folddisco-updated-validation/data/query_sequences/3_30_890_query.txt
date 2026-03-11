@@ -1,9 +1,0 @@
->3_30_890_query
-PDBs: 1ub1A00, 4lg7A00
-PGWRKQRGAGDVYIPQGFRSKLYKGTSLPDFDFTV
-[30, 32, 33, 35, 38, 39, 40, 43, 46, 47, 50, 51, 52, 54, 56, 57, 58, 61, 62, 63, 64, 67, 70, 73, 75, 77, 78, 79, 81, 83, 84, 85, 86, 87, 88]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1ub1A00	P (OK)	G (OK)	W (OK)	R (OK)	K (OK)	Q (OK)	R (OK)	G (OK)	A (OK)	G (OK)	D (OK)	V (OK)	Y (OK)	I (OK)	P (OK)	Q (OK)	G (OK)	F (OK)	R (OK)	S (OK)	K (OK)	L (OK)	Y (OK)	K (OK)	G (OK)	T (OK)	S (OK)	L (OK)	P (OK)	D (OK)	F (OK)	D (OK)	F (OK)	T (OK)	V (OK)
-4lg7A00	P (OK)	G (OK)	W (OK)	R (OK)	K (OK)	Q (OK)	R (OK)	G (OK)	A (OK)	G (OK)	D (OK)	V (OK)	Y (OK)	I (OK)	P (OK)	Q (OK)	G (OK)	F (OK)	R (OK)	S (OK)	K (OK)	L (OK)	Y (OK)	K (OK)	G (OK)	T (OK)	S (OK)	L (OK)	P (OK)	D (OK)	F (OK)	D (OK)	F (OK)	T (OK)	V (OK)

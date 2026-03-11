@@ -1,9 +1,0 @@
->1_20_1200_query
-PDBs: 1nigA00, 1nogA00
-IGAILSAREL
-[26, 34, 36, 52, 80, 109, 115, 116, 137, 159]
-[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-
-# Match Table
-1nigA00	I (OK)	G (OK)	A (OK)	I (OK)	L (OK)	S (OK)	A (OK)	R (OK)	E (OK)	L (OK)
-1nogA00	I (OK)	G (OK)	A (OK)	I (OK)	L (OK)	S (OK)	A (OK)	R (OK)	E (OK)	L (OK)
