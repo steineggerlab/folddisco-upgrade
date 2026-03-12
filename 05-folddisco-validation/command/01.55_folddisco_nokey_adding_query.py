@@ -3,7 +3,7 @@ import os
 
 # 파일 경로 설정
 A_FILE = "result/folddisco_results_stats/folddisco_result_summary.txt"
-B_FILE = "data/folddisco_info_list_expanded5.txt"
+B_FILE = "data/folddisco_info_list_expanded.txt"
 OUT_FILE = "result/folddisco_results_stats/folddisco_result_summary_final.txt"
 
 def get_core_id_from_filename(filename):
