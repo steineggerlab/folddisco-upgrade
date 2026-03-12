@@ -94,3 +94,5 @@ Steps:
 4. Derive a single unified E-value function (length-independent at inference time) and compute E-values for all matches (command/05)
 5. Validate fit quality and calibration (command/06-08)
 
+## Directory: folddisco-NN (TBD)
+Using Neural Networks to develop a significance score for Folddisco matches, independently from e-values (Currently being developed)
