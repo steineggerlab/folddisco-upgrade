@@ -1,0 +1,1267 @@
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Folddisco-NN', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999620 distinct/N=0.999962
+[tie]   Baseline_IDF         dtype=float64  distinct=    681731 distinct/N=0.068173
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290547 distinct/N=0.029055
+[tie]   Baseline_TM          dtype=float64  distinct=      9684 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15135 distinct/N=0.001514
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.290749 (logit) = 0.999749 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5814
+Recall: 0.4446
+F1 Score: 0.5039
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Folddisco-NN: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Folddisco-NN: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating NN-based Input Features Distribution plot...
+[feature-dist] using NN threshold 8.290749 (logit)
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final_all
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999588 distinct/N=0.999959
+[tie]   Baseline_IDF         dtype=float64  distinct=    681040 distinct/N=0.068104
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290482 distinct/N=0.029048
+[tie]   Baseline_TM          dtype=float64  distinct=      9700 distinct/N=0.000970
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15133 distinct/N=0.001513
+[tie]   NN_raw_logit         dtype=float64  distinct=   6657989 distinct/N=0.665799
+[tie]   Blend_a0.50          dtype=float64  distinct=   9999974 distinct/N=0.999997
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.238423 (logit) = 0.999736 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5777
+Recall: 0.4470
+F1 Score: 0.5040
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+
+--- Evaluating Model: NN_raw_logit ---
+[NN_raw_logit] Optimized via Max F1-Score.
+Found/Assigned Threshold: 7.780547 (logit) = 0.999582 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9994
+ROC AUC: 0.8745
+Global Average Precision (Pooled): 0.3464
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5640
+Recall: 0.3558
+F1 Score: 0.4363
+
+--- Evaluating Model: Blend_a0.50 ---
+[Blend_a0.50] Optimized via Max F1-Score.
+Found/Assigned Threshold: 7.514695 (logit) = 0.999455 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.8956
+Global Average Precision (Pooled): 0.4653
+Mean Average Precision (mAP): 0.5847
+Precision: 0.5756
+Recall: 0.4972
+F1 Score: 0.5335
+[first-FP/pessimistic] Folddisco-NN: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Folddisco-NN: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] NN_raw_logit: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] NN_raw_logit: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Blend_a0.50: AUC=0.4621 median=0.4000 frac_zero=0.202 frac_perfect=0.246 n_queries=28194
+[first-FP/tie-diag] Blend_a0.50: optimistic=0.4621 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating NN-based Input Features Distribution plot...
+[feature-dist] using NN threshold 7.514695 (logit)
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Folddisco-NN', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999656 distinct/N=0.999966
+[tie]   Baseline_IDF         dtype=float64  distinct=    681334 distinct/N=0.068133
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290449 distinct/N=0.029045
+[tie]   Baseline_TM          dtype=float64  distinct=      9695 distinct/N=0.000969
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15132 distinct/N=0.001513
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.606244 (logit) = 0.999817 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.6031
+Recall: 0.4311
+F1 Score: 0.5028
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final_all
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999629 distinct/N=0.999963
+[tie]   Baseline_IDF         dtype=float64  distinct=    681409 distinct/N=0.068141
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290767 distinct/N=0.029077
+[tie]   Baseline_TM          dtype=float64  distinct=      9684 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15133 distinct/N=0.001513
+[tie]   NN_raw_logit         dtype=float64  distinct=   6656105 distinct/N=0.665610
+[tie]   Blend_a0.50          dtype=float64  distinct=   9999976 distinct/N=0.999998
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.508694 (logit) = 0.999798 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5967
+Recall: 0.4353
+F1 Score: 0.5034
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+
+--- Evaluating Model: NN_raw_logit ---
+[NN_raw_logit] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.043900 (logit) = 0.999679 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.8745
+Global Average Precision (Pooled): 0.3464
+Mean Average Precision (mAP): 0.5909
+Precision: 0.6007
+Recall: 0.3429
+F1 Score: 0.4366
+
+--- Evaluating Model: Blend_a0.50 ---
+[Blend_a0.50] Optimized via Max F1-Score.
+Found/Assigned Threshold: 7.545554 (logit) = 0.999472 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.8956
+Global Average Precision (Pooled): 0.4653
+Mean Average Precision (mAP): 0.5847
+Precision: 0.5771
+Recall: 0.4959
+F1 Score: 0.5335
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Folddisco-NN', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999640 distinct/N=0.999964
+[tie]   Baseline_IDF         dtype=float64  distinct=    681217 distinct/N=0.068122
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290497 distinct/N=0.029050
+[tie]   Baseline_TM          dtype=float64  distinct=      9684 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15133 distinct/N=0.001513
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.037577 (logit) = 0.999677 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5618
+Recall: 0.4560
+F1 Score: 0.5034
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final_all
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999635 distinct/N=0.999964
+[tie]   Baseline_IDF         dtype=float64  distinct=    680996 distinct/N=0.068100
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290707 distinct/N=0.029071
+[tie]   Baseline_TM          dtype=float64  distinct=      9679 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15136 distinct/N=0.001514
+[tie]   NN_raw_logit         dtype=float64  distinct=   6657920 distinct/N=0.665792
+[tie]   Blend_a0.50          dtype=float64  distinct=   9999977 distinct/N=0.999998
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.271315 (logit) = 0.999744 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5800
+Recall: 0.4455
+F1 Score: 0.5039
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+
+--- Evaluating Model: NN_raw_logit ---
+[NN_raw_logit] Optimized via Max F1-Score.
+Found/Assigned Threshold: 7.974237 (logit) = 0.999656 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.8745
+Global Average Precision (Pooled): 0.3464
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5917
+Recall: 0.3463
+F1 Score: 0.4369
+
+--- Evaluating Model: Blend_a0.50 ---
+[Blend_a0.50] Optimized via Max F1-Score.
+Found/Assigned Threshold: 6.870162 (logit) = 0.998963 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9994
+ROC AUC: 0.8956
+Global Average Precision (Pooled): 0.4653
+Mean Average Precision (mAP): 0.5847
+Precision: 0.5361
+Recall: 0.5207
+F1 Score: 0.5283
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Folddisco-NN', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999577 distinct/N=0.999958
+[tie]   Baseline_IDF         dtype=float64  distinct=    681262 distinct/N=0.068126
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290626 distinct/N=0.029063
+[tie]   Baseline_TM          dtype=float64  distinct=      9689 distinct/N=0.000969
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15134 distinct/N=0.001513
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.373081 (logit) = 0.999769 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5873
+Recall: 0.4411
+F1 Score: 0.5038
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Folddisco-NN: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Folddisco-NN: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using Significance Score threshold 8.373081
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Folddisco-NN', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Folddisco-NN         dtype=float64  distinct=   9999608 distinct/N=0.999961
+[tie]   Baseline_IDF         dtype=float64  distinct=    681944 distinct/N=0.068194
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290514 distinct/N=0.029051
+[tie]   Baseline_TM          dtype=float64  distinct=      9680 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15135 distinct/N=0.001514
+
+--- Evaluating Model: Folddisco-NN ---
+[Folddisco-NN] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.256244 (logit) = 0.999740 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5789
+Recall: 0.4461
+F1 Score: 0.5039
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Significance Score: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Significance Score: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 8.256244
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Significance Score', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Significance Score   dtype=float64  distinct=   9999640 distinct/N=0.999964
+[tie]   Baseline_IDF         dtype=float64  distinct=    680787 distinct/N=0.068079
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290334 distinct/N=0.029033
+[tie]   Baseline_TM          dtype=float64  distinct=      9696 distinct/N=0.000970
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15132 distinct/N=0.001513
+
+--- Evaluating Model: Significance Score ---
+[Significance Score] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.788599 (logit) = 0.999848 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.6144
+Recall: 0.4233
+F1 Score: 0.5012
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Significance Score: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Significance Score: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 8.788599
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Significance Score', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Significance Score   dtype=float64  distinct=   9999600 distinct/N=0.999960
+[tie]   Baseline_IDF         dtype=float64  distinct=    681540 distinct/N=0.068154
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290450 distinct/N=0.029045
+[tie]   Baseline_TM          dtype=float64  distinct=      9683 distinct/N=0.000968
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15135 distinct/N=0.001514
+
+--- Evaluating Model: Significance Score ---
+[Significance Score] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.372167 (logit) = 0.999769 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5872
+Recall: 0.4412
+F1 Score: 0.5038
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Significance Score: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Significance Score: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 8.372167
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+[sanity] unique source               : 15170
+[sanity] unique query_num            : 205
+[sanity] target_id spanning >1 query_num: 0 (0 이어야 정상)
+[sanity] queries with >=1 positive      : 28194 / 28364
+[sanity] median hits per query          : 10436
+[guard] scope40: 28364 groups, 9227.6 rows/group (reference 9228)
+[contract] skip=linear
+[contract] arch=mlp  features=['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']  train val_mAP=0.7309
+[TIE-FIX] score_logit_NN dtype = float64 (range: -10.3387 ~ 29.4956)
+Loaded and Filtered data: Samples 261732035, True Labels Count: 157153
+[plot] combined plot 곡선: ['Significance Score', 'Baseline_IDF', 'Baseline_RMSD', 'Baseline_TM', 'Baseline_RMSD_Node', 'IDF_then_RMSD']  (평가·CSV 는 전체 모델 수행)
+
+[tie] score resolution on plot subsample (N=10000000):
+[tie]   Significance Score   dtype=float64  distinct=   9999612 distinct/N=0.999961
+[tie]   Baseline_IDF         dtype=float64  distinct=    681042 distinct/N=0.068104
+[tie]   Baseline_RMSD        dtype=float64  distinct=    290501 distinct/N=0.029050
+[tie]   Baseline_TM          dtype=float64  distinct=      9672 distinct/N=0.000967
+[tie]   Baseline_RMSD_Node   dtype=float64  distinct=        62 distinct/N=0.000006
+[tie]   IDF_then_RMSD        dtype=float64  distinct=     15135 distinct/N=0.001514
+
+--- Evaluating Model: Significance Score ---
+[Significance Score] Optimized via Max F1-Score.
+Found/Assigned Threshold: 8.501036 (logit) = 0.999797 (prob)
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9995
+ROC AUC: 0.9013
+Global Average Precision (Pooled): 0.4276
+Mean Average Precision (mAP): 0.5909
+Precision: 0.5961
+Recall: 0.4357
+F1 Score: 0.5034
+
+--- Evaluating Model: Baseline_IDF ---
+Found/Assigned Threshold: 217.066800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8406
+Global Average Precision (Pooled): 0.2470
+Mean Average Precision (mAP): 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+--- Evaluating Model: Baseline_RMSD ---
+Found/Assigned Threshold: -0.025900
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7206
+Global Average Precision (Pooled): 0.0731
+Mean Average Precision (mAP): 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+--- Evaluating Model: Baseline_TM ---
+Found/Assigned Threshold: 0.911800
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9989
+ROC AUC: 0.7274
+Global Average Precision (Pooled): 0.0805
+Mean Average Precision (mAP): 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+Found/Assigned Threshold: 5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9985
+ROC AUC: 0.6781
+Global Average Precision (Pooled): 0.1773
+Mean Average Precision (mAP): 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+--- Evaluating Model: IDF_then_RMSD ---
+Found/Assigned Threshold: -5.000000
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+Accuracy: 0.9992
+ROC AUC: 0.8999
+Global Average Precision (Pooled): 0.2976
+Mean Average Precision (mAP): 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+[first-FP/pessimistic] Significance Score: AUC=0.4762 median=0.4286 frac_zero=0.188 frac_perfect=0.256 n_queries=28194
+[first-FP/tie-diag] Significance Score: optimistic=0.4762 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_IDF: AUC=0.4264 median=0.3333 frac_zero=0.242 frac_perfect=0.219 n_queries=28194
+[first-FP/tie-diag] Baseline_IDF: optimistic=0.4620 tie_gap=0.0355 | tied_top=0.050 mixed_label_top=0.037 mean_top_block=12.60
+[first-FP/pessimistic] Baseline_RMSD: AUC=0.1389 median=0.0000 frac_zero=0.599 frac_perfect=0.041 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD: optimistic=0.1390 tie_gap=0.0000 | tied_top=0.003 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_TM: AUC=0.1670 median=0.0000 frac_zero=0.523 frac_perfect=0.045 n_queries=28194
+[first-FP/tie-diag] Baseline_TM: optimistic=0.1670 tie_gap=0.0000 | tied_top=0.001 mixed_label_top=0.000 mean_top_block=1.00
+[first-FP/pessimistic] Baseline_RMSD_Node: AUC=0.2498 median=0.1538 frac_zero=0.411 frac_perfect=0.094 n_queries=28194
+[first-FP/tie-diag] Baseline_RMSD_Node: optimistic=0.3682 tie_gap=0.1184 | tied_top=0.381 mixed_label_top=0.149 mean_top_block=144.86
+[first-FP/pessimistic] IDF_then_RMSD: AUC=0.4500 median=0.3500 frac_zero=0.205 frac_perfect=0.234 n_queries=28194
+[first-FP/tie-diag] IDF_then_RMSD: optimistic=0.4500 tie_gap=0.0000 | tied_top=0.000 mixed_label_top=0.000 mean_top_block=1.00
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 8.501036
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+
+--- Evaluating Model: Significance Score ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_IDF ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_TM ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: IDF_then_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+[PLOT] Saved FPR bar plot to result_benchmark_v2/analyses_plot_comparison_final/combined_fpr_bar_plot.png
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+
+--- Evaluating Model: Significance Score ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_IDF ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_TM ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: IDF_then_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+[PLOT] Saved FPR bar plot to result_benchmark_v2/analyses_plot_comparison_final/combined_fpr_bar_plot.png
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+
+--- Evaluating Model: Significance Score ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_IDF ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_TM ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: IDF_then_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+[PLOT] Saved FPR bar plot to result_benchmark_v2/analyses_plot_comparison_final/combined_fpr_bar_plot.png
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 7.903003
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt
+Plots and figures will be saved to: result_benchmark_v2/analyses_plot_comparison_final_all
+Loading scope40 test dataset from result_benchmark_v2/folddisco_results_analyses/data_test_scope40.txt...
+[sanity] unique target_id (query)     : 28364
+
+--- Evaluating Model: Significance Score ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_IDF ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_TM ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Baseline_RMSD_Node ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: IDF_then_RMSD ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: NN_raw_logit ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+
+--- Evaluating Model: Blend_a0.50 ---
+mAP over 28194 queries (single-class skipped: 170, non-finite score dropped: 0)
+[PLOT] Saved FPR bar plot to result_benchmark_v2/analyses_plot_comparison_final_all/combined_fpr_bar_plot.png
+Generating Significance Score-based Input Features Distribution plot...
+[feature-dist] using column 'score_NN_z' with threshold 7.928439
+Evaluation complete. Summary report saved to result_benchmark_v2/folddisco_results_scores_final/evaluation_results_summary.txt

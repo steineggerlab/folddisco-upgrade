@@ -1,0 +1,11 @@
+v1: layer 4개로 fitting / sampling 없음 / posweight
+v2: layer 4개로 fitting / sampling 있음 (1:20 / 1:5) / FocalLoss
+
+v3: layer 2개로 fitting / sampling 있음 (상동) / FocalLoss
+v4: v3랑 똑같은데 threshold 0.8
+v5: v3랑 똑같은데 threshold 0.8 / self 구별로 변화한 것
+
+v6: layer 2개로 fitting / sampling 1:1로 -> threshold 0.677.... 일때 FP는 최소화 / FN은 0.6이던 0.67..이던 거의 불변
+v7: v6에서 dropout만 제거
+v8: 그동안의 data에 대한 labeling 정정 버전 (하나만 겹쳐도 모든 match true였던 것 수정)
+v9: v8에서 model 학습 시 RMSD 제외하고 학습

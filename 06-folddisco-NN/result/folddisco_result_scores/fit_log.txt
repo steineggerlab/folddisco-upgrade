@@ -1,0 +1,43 @@
+================================================================================
+[load] result_benchmark_v2/folddisco_results_analyses/filtered_combined_MCSA.txt
+[load] rows=19696761  (25.1s)
+[guard] M-CSA: 751 groups, 26227.4 rows/group (reference 9228)
+[data] rows=19696761  groups=751  positives=231037 (1.173%)
+[feat] 7: ['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']
+[afdb] 420000 rows, 1400 groups, positives=4 (negative-only 예상)
+[afdb] listwise 항에는 기여 불가(positive 없음). BCE 항에만 사용한다.
+[data] usable groups: 751/751
+[split] train=639 groups, val=112 groups
+[model] mlp  params=35849  beta_bce=1.0  skip=linear
+Epoch 01/40 - Loss: 6.4331  val_mAP: 0.7279 (best 0.7279)  val_globalAP: raw=0.4312 z=0.3530
+Epoch 02/40 - Loss: 5.6824  val_mAP: 0.7196 (best 0.7279)  val_globalAP: raw=0.4237 z=0.3481
+Epoch 03/40 - Loss: 5.5028  val_mAP: 0.7228 (best 0.7279)  val_globalAP: raw=0.4593 z=0.3471
+Epoch 04/40 - Loss: 5.4502  val_mAP: 0.7229 (best 0.7279)  val_globalAP: raw=0.4340 z=0.3574
+Epoch 05/40 - Loss: 5.3685  val_mAP: 0.7229 (best 0.7279)  val_globalAP: raw=0.4434 z=0.3455
+Epoch 06/40 - Loss: 5.3342  val_mAP: 0.7218 (best 0.7279)  val_globalAP: raw=0.4506 z=0.3488
+Epoch 07/40 - Loss: 5.3190  val_mAP: 0.7292 (best 0.7292)  val_globalAP: raw=0.4627 z=0.3557
+Epoch 08/40 - Loss: 5.2564  val_mAP: 0.7236 (best 0.7292)  val_globalAP: raw=0.4184 z=0.3591
+Epoch 09/40 - Loss: 5.2488  val_mAP: 0.7281 (best 0.7292)  val_globalAP: raw=0.4333 z=0.3591
+Epoch 10/40 - Loss: 5.3233  val_mAP: 0.7266 (best 0.7292)  val_globalAP: raw=0.4701 z=0.3608
+Epoch 11/40 - Loss: 5.2081  val_mAP: 0.7261 (best 0.7292)  val_globalAP: raw=0.4806 z=0.3654
+Epoch 12/40 - Loss: 5.1899  val_mAP: 0.7277 (best 0.7292)  val_globalAP: raw=0.4444 z=0.3563
+Epoch 13/40 - Loss: 5.1930  val_mAP: 0.7246 (best 0.7292)  val_globalAP: raw=0.4183 z=0.3495
+Epoch 14/40 - Loss: 5.1366  val_mAP: 0.7296 (best 0.7296)  val_globalAP: raw=0.4697 z=0.3532
+Epoch 15/40 - Loss: 5.1452  val_mAP: 0.7309 (best 0.7309)  val_globalAP: raw=0.4507 z=0.3577
+Epoch 16/40 - Loss: 5.1052  val_mAP: 0.7289 (best 0.7309)  val_globalAP: raw=0.4659 z=0.3566
+Epoch 17/40 - Loss: 5.1157  val_mAP: 0.7286 (best 0.7309)  val_globalAP: raw=0.4497 z=0.3549
+Epoch 18/40 - Loss: 5.1034  val_mAP: 0.7287 (best 0.7309)  val_globalAP: raw=0.4574 z=0.3772
+Epoch 19/40 - Loss: 5.1110  val_mAP: 0.7232 (best 0.7309)  val_globalAP: raw=0.4440 z=0.3517
+Epoch 20/40 - Loss: 5.1059  val_mAP: 0.7253 (best 0.7309)  val_globalAP: raw=0.4636 z=0.3613
+Epoch 21/40 - Loss: 5.0748  val_mAP: 0.7265 (best 0.7309)  val_globalAP: raw=0.4496 z=0.3713
+Epoch 22/40 - Loss: 5.0915  val_mAP: 0.7304 (best 0.7309)  val_globalAP: raw=0.4519 z=0.3550
+Epoch 23/40 - Loss: 5.0439  val_mAP: 0.7229 (best 0.7309)  val_globalAP: raw=0.4259 z=0.3660
+[early stop] @ep23
+[skip weights] z_idf=+0.093  z_rmsd=-0.012  z_tm=+0.329  coverage=+0.269  idf_pct=+0.060  gap_to_top=-0.178  log_nhits=+0.030
+[skip] z_idf 계수가 크면 모델이 blend 를 스스로 학습한 것이다 (alpha 를 손으로 찍을 필요가 없어진다).
+
+[save] result_benchmark_v2/folddisco_results_scores_final/best_mlp_model.pt
+[save] feature contract: ['z_idf', 'z_rmsd', 'z_tm', 'coverage', 'idf_pct', 'gap_to_top', 'log_nhits']
+[save] val globalAP: raw=0.4259  z=0.3660  (beta 선택은 이 값으로, scope40 아님)
+[save] best val_mAP = 0.7309
+================================================================================

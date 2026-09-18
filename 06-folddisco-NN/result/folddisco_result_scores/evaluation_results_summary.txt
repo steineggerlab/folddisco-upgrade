@@ -1,0 +1,80 @@
+[Significance Score]
+Threshold: 8.287670
+FPR: 0.000193
+ROC AUC: 0.9013
+Global AP: 0.4276
+mAP: 0.5909
+Precision: 0.5812
+Recall: 0.4448
+F1 Score: 0.5039
+
+[IDF]
+Threshold: 217.066800
+FPR: 0.000412
+ROC AUC: 0.8406
+Global AP: 0.2470
+mAP: 0.5395
+Precision: 0.3138
+Recall: 0.3138
+F1 Score: 0.3138
+
+[RMSD]
+Threshold: -0.025900
+FPR: 0.000562
+ROC AUC: 0.7206
+Global AP: 0.0731
+mAP: 0.1502
+Precision: 0.0717
+Recall: 0.0722
+F1 Score: 0.0719
+
+[TM]
+Threshold: 0.911800
+FPR: 0.000551
+ROC AUC: 0.7274
+Global AP: 0.0805
+mAP: 0.1992
+Precision: 0.0832
+Recall: 0.0833
+F1 Score: 0.0833
+
+[RMSD_Node]
+Threshold: 5.000000
+FPR: 0.001083
+ROC AUC: 0.6781
+Global AP: 0.1773
+mAP: 0.2842
+Precision: 0.1152
+Recall: 0.2346
+F1 Score: 0.1545
+
+[IDF_then_RMSD]
+Threshold: -5.000000
+FPR: 0.000421
+ROC AUC: 0.8999
+Global AP: 0.2976
+mAP: 0.5689
+Precision: 0.3536
+Recall: 0.3828
+F1 Score: 0.3676
+
+[NN_raw_logit]
+Threshold: 8.114160
+FPR: 0.000131
+ROC AUC: 0.8745
+Global AP: 0.3464
+mAP: 0.5909
+Precision: 0.6097
+Recall: 0.3395
+F1 Score: 0.4361
+
+[Blend_a0.50]
+Threshold: 7.928439
+FPR: 0.000196
+ROC AUC: 0.8956
+Global AP: 0.4653
+mAP: 0.5847
+Precision: 0.5962
+Recall: 0.4822
+F1 Score: 0.5332
+

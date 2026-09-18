@@ -1,1 +1,0 @@
-folddisco query -i index/index_pdbs_folddisco -q ../data/folddisco_info_list.txt -t 128 -v --sort-by idf --header --format-output tid,node_count,idf,rmsd,tm_score,matching_residues

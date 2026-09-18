@@ -1,0 +1,1 @@
+folddisco query -i /fast2/jwyoon05/folddisco-dirs/folddisco-NN-afdbshuffle/index/afdb_shuffled_folddisco -q /fast2/jwyoon05/folddisco-dirs/folddisco-NN/data/data_neg_afdb_shuffle/folddisco_info_list_expanded.txt -t 32 -v --sort-by idf --top 10000 --header --format-output tid,node_count,idf,rmsd,tm_score,matching_residues
